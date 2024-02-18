@@ -506,7 +506,7 @@
       "header-04": {
         "type": "header-04",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "layout_type": "logo-menu-icons",
           "logo": "shopify:\/\/shop_images\/whales-logo.svg",
           "logo_text": "Merch",
