@@ -523,60 +523,6 @@
       },
       "footer-05": {
         "type": "footer-05",
-        "blocks": {
-          "ddecc46f-d933-4737-8bc3-540bac0e01de": {
-            "type": "logo_image",
-            "settings": {
-              "show_logo": true,
-              "image_width": 115,
-              "alignment": ""
-            }
-          },
-          "2f02cd74-f52f-4875-bdfb-336290c29213": {
-            "type": "text",
-            "settings": {
-              "show_heading": false,
-              "heading": "Heading",
-              "show_subtext": true,
-              "subtext": "<p>312 North 24th Street<br\/>Brooklyn, New York 10010<br\/>United States<\/p><p>+33 212 218 8500<br\/><a href=\"mailto:sale@peakshop.com\" title=\"mailto:sale@peakshop.com\">sale@peakshop.com<\/a><\/p>"
-            }
-          },
-          "e09a2a58-5b5e-4eb4-90aa-29276177996a": {
-            "type": "link_list",
-            "settings": {
-              "heading": "",
-              "menu": "main-menu"
-            }
-          },
-          "footer-05-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "",
-              "menu": ""
-            }
-          },
-          "bc2627a9-4cb9-4497-a3a4-8bd19ca2f0ba": {
-            "type": "link_list",
-            "settings": {
-              "heading": "",
-              "menu": "footer"
-            }
-          },
-          "5b46d073-46bb-43f1-a941-a0c728f4fade": {
-            "type": "social",
-            "settings": {
-              "show_social": false
-            }
-          }
-        },
-        "block_order": [
-          "ddecc46f-d933-4737-8bc3-540bac0e01de",
-          "2f02cd74-f52f-4875-bdfb-336290c29213",
-          "e09a2a58-5b5e-4eb4-90aa-29276177996a",
-          "footer-05-0",
-          "bc2627a9-4cb9-4497-a3a4-8bd19ca2f0ba",
-          "5b46d073-46bb-43f1-a941-a0c728f4fade"
-        ],
         "settings": {
           "heading": "Peakshop",
           "heading_size": "h0",
