@@ -169,7 +169,6 @@
           "settings": {
             "heading": "Additional Information",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom._additional_information | metafield_tag }}<\/p>",
             "description": false,
             "image_ratio": "43",
             "page": ""
