@@ -90,6 +90,7 @@
         "a97f8bfc-f549-42ab-9a15-cc77a93f6566",
         "e2e937c0-a2f7-4ed5-9bd2-f22685043f35"
       ],
+      "disabled": true,
       "settings": {
         "layout": "grid--gapless",
         "slide_height": "square",
@@ -364,6 +365,7 @@
       "block_order": [
         "template--17016615010579__1ae5d19b-0d31-4b2e-8a50-43e86c054bb5-1669195266c159ff66-0"
       ],
+      "disabled": true,
       "settings": {
         "layout": "grid--gapless",
         "slide_height": "square",
