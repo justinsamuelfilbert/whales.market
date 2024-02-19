@@ -87,7 +87,6 @@
           "settings": {
             "heading": "Product Detail",
             "icon": "clipboard",
-            "content": "<p>{{ product.metafields.custom.product_detail | metafield_tag }}<\/p>",
             "image_ratio": "43",
             "page": ""
           }
@@ -160,7 +159,6 @@
           "settings": {
             "heading": "Description",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.product_detail | metafield_tag }}<\/p>",
             "description": false,
             "image_ratio": "43",
             "page": ""
