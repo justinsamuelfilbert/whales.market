@@ -3065,7 +3065,7 @@ details[open] > .header__submenu {
 	text-decoration: none;
 	color: rgb(var(--color-base-text));
 	text-transform: none;
-	font-weight: bold;
+	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.625;
 	opacity: 0.6;
