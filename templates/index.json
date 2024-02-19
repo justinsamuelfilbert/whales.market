@@ -32,11 +32,8 @@
       ],
       "settings": {
         "class_suffix": "",
+        "bg_image": "shopify:\/\/shop_images\/hero-bg.png",
         "image": "shopify:\/\/shop_images\/hero.png",
-        "height": "small",
-        "desktop_image_width": "small",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
