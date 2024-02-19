@@ -32,6 +32,7 @@
       ],
       "settings": {
         "class_suffix": "",
+        "image": "shopify:\/\/shop_images\/hero.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
