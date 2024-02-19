@@ -22,10 +22,11 @@
 
 .card--card,
 .card--standard .card__inner {
-    border-radius: var(--card-corner-radius);
+    border-radius: 1.5rem;
     border: var(--card-border-width) solid rgba(var(--color-foreground), var(--card-border-opacity));
     position: relative;
     box-sizing: border-box;
+    background-color: #171D29;
 }
 
 .card--card:after,
