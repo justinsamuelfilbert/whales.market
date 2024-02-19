@@ -1,11 +1,11 @@
 [
   {
     "name": "theme_info",
-    "theme_name": "Peakshop",
+    "theme_name": "merch.whales.market",
     "theme_version": "1.0.0",
-    "theme_author": "Joomlart",
-    "theme_documentation_url": "https:\/\/joomlart.gitbook.io\/peakshop-documentation\/",
-    "theme_support_url": "https:\/\/joomlart.com\/"
+    "theme_author": "whales.market",
+    "theme_documentation_url": "https:\/\/whales.market\/",
+    "theme_support_url": "https:\/\/whales.market\/"
   },
   {
     "name": "t:settings_schema.multilayout.name",
