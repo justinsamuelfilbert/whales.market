@@ -4,11 +4,11 @@
     "footer_layout": "05",
     "blog_layout": "01",
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#000000",
+    "colors_accent_1": "#14f195",
     "gradient_accent_1": "",
     "colors_accent_2": "#ffc700",
     "gradient_accent_2": "",
-    "colors_accent_3": "#f56836",
+    "colors_accent_3": "#6428d9",
     "colors_accent_4": "#0fa958",
     "colors_text": "#000000",
     "colors_outline_button_labels": "#000000",
@@ -137,7 +137,7 @@
           "announcement-bar-0"
         ],
         "settings": {
-          "bg_colors": "#000000",
+          "bg_colors": "#6428d9",
           "text_colors": "#ffffff",
           "full_width": false,
           "container": false,
@@ -506,12 +506,12 @@
       "header-04": {
         "type": "header-04",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "inverse",
           "layout_type": "logo-menu-icons",
-          "logo": "shopify:\/\/shop_images\/logo.png",
-          "logo_text": "Peakshop",
+          "logo": "shopify:\/\/shop_images\/whales-logo.svg",
+          "logo_text": "Merch",
           "logo_font": "space_mono_n7",
-          "logo_width": 115,
+          "logo_width": 100,
           "menu": "main-menu",
           "menu_type_desktop": "mega",
           "enable_sticky_header": true,
@@ -528,7 +528,6 @@
             "type": "logo_image",
             "settings": {
               "show_logo": true,
-              "image": "shopify:\/\/shop_images\/logo-white.png",
               "image_width": 115,
               "alignment": ""
             }
@@ -553,7 +552,7 @@
             "type": "link_list",
             "settings": {
               "heading": "",
-              "menu": "other-pages"
+              "menu": ""
             }
           },
           "bc2627a9-4cb9-4497-a3a4-8bd19ca2f0ba": {
