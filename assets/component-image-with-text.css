@@ -106,6 +106,18 @@
     rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
 }
 
+.image-with-text .image-with-text__media-item-inner {
+  padding: 1rem 1rem 1rem 0;
+  background-color: rgba(255,255,255,0.1);
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.image-with-text .image-with-text__media-item-inner img {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
 .image-with-text .image-with-text__media-item {
   align-items: flex-start;
   display: flex;
