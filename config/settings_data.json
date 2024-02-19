@@ -30,7 +30,7 @@
     "spacing_sections": 0,
     "spacing_grid_horizontal": 24,
     "spacing_grid_vertical": 24,
-    "buttons_border_thickness": 2,
+    "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
     "buttons_shadow_opacity": 100,
@@ -517,7 +517,7 @@
           "enable_sticky_header": true,
           "padding_top": 20,
           "padding_bottom": 20,
-          "border_thickness": 2,
+          "border_thickness": 1,
           "border_opacity": 100
         }
       },
