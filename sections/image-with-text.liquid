@@ -46,8 +46,8 @@
             src="{{ section.settings.image | image_url: width: 750 }}"
             alt="{{ section.settings.image.alt | escape }}"
             loading="lazy"
-            width="{{ section.settings.image.width }}"
-            height="{{ section.settings.image.height }}"
+            width="750"
+            height="409"
           >
         {%- else -%}
           {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
