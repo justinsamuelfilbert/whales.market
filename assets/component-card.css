@@ -3,6 +3,9 @@
     height: 100%;
     position: relative;
     text-decoration: none;
+    border: var(--card-border-width) solid rgba(var(--color-foreground), var(--card-border-opacity));
+    background-image: linear-gradient(45deg,transparent,rgba(25,251,155,.3) 20%,transparent 100%,transparent);
+    padding: 1px;
 }
 
 .card {
@@ -27,12 +30,6 @@
     position: relative;
     box-sizing: border-box;
     background-color: #171D29;
-}
-
-.card-wrapper {
-    border: var(--card-border-width) solid rgba(var(--color-foreground), var(--card-border-opacity));
-    background-image: linear-gradient(45deg,transparent,rgba(25,251,155,.3) 20%,transparent 100%,transparent);
-    padding: 1px;
 }
 
 .card .card__inner .card__media {
