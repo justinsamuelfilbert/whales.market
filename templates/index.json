@@ -20,8 +20,8 @@
         "button_fVWbXf": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "View all products",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
