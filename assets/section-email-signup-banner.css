@@ -18,6 +18,10 @@
   #password-page-has-image .email-signup-banner .banner__media {
     width: 100%;
   }
+
+  #password-page-has-image .email-signup-banner .banner__media {
+    border-left: 0;
+  }
 }
 
 #password-page-has-image .email-signup-banner .banner__content {
@@ -27,6 +31,7 @@
 #password-page-has-image .email-signup-banner .banner__media {
   left: auto;
   right: 0;
+  border-left: 1px solid rgba(25,251,155,.3);
 }
 
 @media screen and (min-width: 990px) {
