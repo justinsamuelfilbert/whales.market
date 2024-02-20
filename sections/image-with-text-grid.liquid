@@ -117,9 +117,9 @@
 </div>
 
 {% if section.settings.title_style == "03" %}
-{% javascript %}
-const _getposy1 = document.querySelector(".image-with-text-grid .marquee");
-const _getposl1 = document.querySelector(".image-with-text-grid .marqueee");
+<script type="text/javascript">
+const _getposy = document.querySelector(".image-with-text-grid .marquee");
+const _getposl = document.querySelector(".image-with-text-grid .marqueee");
 
 const _config = {
   speed: 1,
@@ -128,8 +128,8 @@ const _config = {
 
 window.addEventListener("scroll", function() {
   let pageY = window.pageYOffset;
-  let bodyRect = _getposy1.getBoundingClientRect();
-  let bodyRectl = _getposl1.getBoundingClientRect();
+  let bodyRect = _getposy.getBoundingClientRect();
+  let bodyRectl = _getposl.getBoundingClientRect();
   //--
   gsap.to('.image-with-text-grid .marqueee', {
     duration:_config.speed,
@@ -143,8 +143,7 @@ window.addEventListener("scroll", function() {
   });
 })
 
-{% endjavascript %}
-
+</script>
 {%- endif -%}
 
 {% schema %}
