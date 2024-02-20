@@ -117,7 +117,7 @@
 </div>
 
 {% if section.settings.title_style == "03" %}
-<script type="text/javascript">
+{% javascript %}
 const _getposy = document.querySelector(".image-with-text-grid .marquee");
 const _getposl = document.querySelector(".image-with-text-grid .marqueee");
 
@@ -143,7 +143,8 @@ window.addEventListener("scroll", function() {
   });
 })
 
-</script>
+{% endjavascript %}
+
 {%- endif -%}
 
 {% schema %}
