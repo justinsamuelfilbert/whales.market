@@ -77,7 +77,8 @@
       ],
       "settings": {
         "title": "Explore the Whales Collection.",
-        "heading_size": "h3",
+        "heading_size": "hxl",
+        "title_style": "03",
         "layout": "grid",
         "item_ratio": "169",
         "columns_desktop": 3,
