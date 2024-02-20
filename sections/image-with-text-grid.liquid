@@ -118,8 +118,8 @@
 
 {% if section.settings.title_style == "03" %}
 <script type="text/javascript">
-const _getposy = document.querySelector(".collection .marquee");
-const _getposl = document.querySelector(".collection .marqueee");
+const _getposy = document.querySelector(".image-with-text-grid .marquee");
+const _getposl = document.querySelector(".image-with-text-grid .marqueee");
 
 const _config = {
   speed: 1,
@@ -131,12 +131,12 @@ window.addEventListener("scroll", function() {
   let bodyRect = _getposy.getBoundingClientRect();
   let bodyRectl = _getposl.getBoundingClientRect();
   //--
-  gsap.to('.collection .marqueee', {
+  gsap.to('.image-with-text-grid .marqueee', {
     duration:_config.speed,
     x: -(pageY-(bodyRectl.top - window.innerWidth))/2,
     ease: _config.ease
   });
-  gsap.to(".collection .marquee", {
+  gsap.to(".image-with-text-grid .marquee", {
     duration:_config.speed,
     x: -(pageY-(bodyRectl.top - window.innerWidth))/3,
     ease: _config.ease
