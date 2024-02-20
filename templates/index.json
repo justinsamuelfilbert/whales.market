@@ -39,6 +39,7 @@
         "template--17016615010579__21d4cf4d-5f90-4180-9277-6afc709981dd-1669167040bd7eb463-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/17657757574456853422_2048.jpg",
             "title": "Men",
             "link_label": "",
             "link": "shopify:\/\/collections\/skateboard",
@@ -50,6 +51,7 @@
         "template--17016615010579__21d4cf4d-5f90-4180-9277-6afc709981dd-1669167040bd7eb463-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/10691653661697616783_2048.jpg",
             "title": "Women",
             "link_label": "",
             "link": "shopify:\/\/collections\/clothing",
@@ -61,6 +63,7 @@
         "014b3800-b0ab-448d-b4ce-5248c1b568ca": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/16643749514277319183_2048.jpg",
             "title": "Child",
             "link_label": "",
             "link": "shopify:\/\/collections\/shoes",
@@ -76,8 +79,8 @@
         "014b3800-b0ab-448d-b4ce-5248c1b568ca"
       ],
       "settings": {
-        "title": "Explore the Whales Collection.",
-        "heading_size": "hxl",
+        "title": "Whales Collection.",
+        "heading_size": "h0",
         "title_style": "03",
         "layout": "grid",
         "item_ratio": "169",
@@ -100,11 +103,11 @@
         "collection": "best-sellers",
         "show_card_collection": false,
         "products_to_show": 12,
-        "columns_desktop": 4,
+        "columns_desktop": 3,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "outline",
-        "enable_desktop_slider": true,
+        "enable_desktop_slider": false,
         "slider_visual": "nav",
         "color_scheme": "inverse",
         "desktop_layout": "left",
@@ -191,8 +194,8 @@
         "show_description": false,
         "collection": "latest-products",
         "show_card_collection": false,
-        "products_to_show": 8,
-        "columns_desktop": 4,
+        "products_to_show": 12,
+        "columns_desktop": 3,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "outline",
