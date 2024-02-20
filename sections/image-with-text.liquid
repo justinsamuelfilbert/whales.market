@@ -5,6 +5,8 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
     background-image: url({{ section.settings.bg_image | img_url: 'master' }});
+    background-position: center bottom;
+    background-repeat: no-repeat;
     border-top-style: solid;
     border-color: rgba(255, 255, 255, 0.1);
     border-top-width: 1px;

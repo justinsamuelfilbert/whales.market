@@ -30,9 +30,40 @@
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
         <div class="inner">
-          <h2 class="title {{ section.settings.heading_size }}">
-            {{ section.settings.title | escape }}
-          </h2>
+          {%- if section.settings.title != blank -%}
+            <h2 class="title {{ section.settings.heading_size }}">
+              {% if section.settings.title_style == "03" %}
+              <div class="marquee-group">
+                <div class="marquee">
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span> 
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                </div>
+                <div class="marqueee">
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span> 
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                  <span>{{ section.settings.title | escape }}</span>
+                </div>
+              </div>
+              {% else %}
+                {{ section.settings.title | escape }}
+              {% endif %}
+            </h2>
+          {%- endif -%}
           {%- if section.settings.button_label != blank and show_mobile_slider -%}
             <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
           {%- endif -%}
@@ -85,6 +116,36 @@
   </div>
 </div>
 
+{% if section.settings.title_style == "03" %}
+<script type="text/javascript">
+const _getposy = document.querySelector(".collection .marquee");
+const _getposl = document.querySelector(".collection .marqueee");
+
+const _config = {
+  speed: 1,
+  ease: 1
+}
+
+window.addEventListener("scroll", function() {
+  let pageY = window.pageYOffset;
+  let bodyRect = _getposy.getBoundingClientRect();
+  let bodyRectl = _getposl.getBoundingClientRect();
+  //--
+  gsap.to('.collection .marqueee', {
+    duration:_config.speed,
+    x: -(pageY-(bodyRectl.top - window.innerWidth))/2,
+    ease: _config.ease
+  });
+  gsap.to(".collection .marquee", {
+    duration:_config.speed,
+    x: -(pageY-(bodyRectl.top - window.innerWidth))/3,
+    ease: _config.ease
+  });
+})
+
+</script>
+{%- endif -%}
+
 {% schema %}
 {
   "name": "t:sections.image-banner-text-grid.name",
@@ -124,6 +185,24 @@
       ],
       "default": "hxl",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "title_style",
+      "label": "t:sections.featured-collection.settings.title_style.label",
+      "options": [
+        {
+          "value": "01",
+          "label": "t:sections.featured-collection.settings.title_style.options__1.label"
+        }, {
+          "value": "02",
+          "label": "t:sections.featured-collection.settings.title_style.options__2.label"
+        }, {
+          "value": "03",
+          "label": "t:sections.featured-collection.settings.title_style.options__3.label"
+        }
+      ],
+      "default": "03"
     },
     {
       "type": "select",
