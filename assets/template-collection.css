@@ -7,7 +7,7 @@
 }
 
 .main-collection-products {
-	border-top: 2px solid rgba(0, 0, 0, 100);
+	border-top: 12px solid rgba(255, 255, 255, 0.1);
 }
 
 @media screen and (max-width: 749px) {
