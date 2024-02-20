@@ -36,6 +36,10 @@
     border-radius: calc(var(--card-corner-radius) - var(--card-border-width) - var(--card-image-padding));
 }
 
+.card--card .media, .card--standard .card__inner .media {
+    border-radius: 1.3rem;
+}
+
 .card .card__inner .color-new_badge {
     background-color: #28a745;
     color: #fff;
