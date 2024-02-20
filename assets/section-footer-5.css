@@ -2,6 +2,7 @@
 	gap: 0px;
 	color: rgba(var(--color-foreground), 0.75);
 }
+
 .footer-05 .footer__content-top .grid {
 	row-gap: 0px;
 }
@@ -105,7 +106,8 @@
 .footer-05 .title-wrapper-03 {
 	margin-bottom: 0;
 	padding-bottom: 2.4rem;
-	border-bottom: 2px solid rgba(var(--color-foreground), 0.2);
+	border-bottom: 1px solid #ffffff1a;
+	border-top: 1px solid #ffffff1a;
 }
 
 @media screen and (max-width: 749px) {
@@ -141,6 +143,7 @@
 
 .footer-05 .footer__copyright {
 	text-align: inherit;
+	color: #fff;
 }
 
 .footer-05 .footer__payment {
