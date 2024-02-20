@@ -22,7 +22,7 @@
 .timer__title { 
   text-align: center; 
   padding: 2.4rem;
-  background-color: rgba(0,0,0,0.4); 
+  background-color: #6428d9; 
 } 
 
 .timer-display { 
@@ -42,7 +42,7 @@
   position: relative; 
   padding: 2.4rem; 
   font-size: 2.4rem;
-  background-color: rgba(0,0,0,0.4); 
+  background-color: #6428d9; 
 }
 
 @media screen and (max-width: 750px) {

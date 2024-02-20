@@ -53,7 +53,7 @@
 	height: 100%;
 	z-index: 2;
 	color: rgb(var(--color-button-text));
-	background-color: rgba(var(--color-button), var(--alpha-button-background));
+	background-color: none;
 }
 
 .newsletter-form__button:focus-visible {
