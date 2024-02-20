@@ -48,6 +48,7 @@
 
 .newsletter-form__field-wrapper .field__label {
   top: calc(1.5rem + var(--inputs-border-width));
+  color: rgba(var(--color-foreground),.75);
 }
 
 @media screen and (max-width: 989px) {
@@ -58,8 +59,9 @@
 }
 
 .banner--desktop-transparent .email-signup-banner__box .field__input {
-  background-color: rgba(255,255,255,0.1);
+  background-color: transparent;
   color: #fff;
+  border-color: #fff;
 }
 
 @media screen and (min-width: 750px) {
