@@ -218,8 +218,8 @@
 
 {% if section.settings.title_style == "03" %}
 {% javascript %}
-const _getposy = document.querySelector(".section-{{ section.id }}-padding .marquee");
-const _getposl = document.querySelector(".section-{{ section.id }}-padding .marqueee");
+const _getposy2 = document.querySelector(".section-{{ section.id }}-padding .marquee");
+const _getposl2 = document.querySelector(".section-{{ section.id }}-padding .marqueee");
 
 const _config = {
   speed: 1,
@@ -228,8 +228,8 @@ const _config = {
 
 window.addEventListener("scroll", function() {
   let pageY = window.pageYOffset;
-  let bodyRect = _getposy.getBoundingClientRect();
-  let bodyRectl = _getposl.getBoundingClientRect();
+  let bodyRect = _getposy2.getBoundingClientRect();
+  let bodyRectl = _getposl2.getBoundingClientRect();
   //--
   gsap.to('.section-{{ section.id }}-padding .marqueee', {
     duration:_config.speed,
