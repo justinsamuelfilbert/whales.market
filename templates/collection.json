@@ -2,6 +2,7 @@
   "sections": {
     "cde2e82e-9ee6-4ecc-91f6-a4cf4a607b02": {
       "type": "breadcrumb",
+      "disabled": true,
       "settings": {
         "alignment_breadcrumb": "left",
         "padding_top": 24,
