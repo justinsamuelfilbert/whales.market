@@ -6,15 +6,8 @@
         "heading_xQ4GmG": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_zerjp7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
+            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ipsum tellus, porta vitae orci elementum, ultricies congue felis.",
+            "heading_size": "h2"
           }
         },
         "button_fVWbXf": {
@@ -27,7 +20,6 @@
       },
       "block_order": [
         "heading_xQ4GmG",
-        "text_zerjp7",
         "button_fVWbXf"
       ],
       "settings": {
