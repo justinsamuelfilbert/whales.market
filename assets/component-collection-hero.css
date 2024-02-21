@@ -60,8 +60,12 @@
 }
 
 .collection-hero__title {
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3.5rem;
+    color: #fff;
 }
+
 .collection-hero__title span {
     color: #fff;
 }
