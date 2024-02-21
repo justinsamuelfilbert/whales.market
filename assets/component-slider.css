@@ -582,6 +582,6 @@ slider-component:hover .slider-button {
 }
 
 /* Product */
-.grid__item.slider__slide {
-  
+.grid__item.slider__slide .card-wrapper {
+
 }
