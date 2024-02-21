@@ -329,7 +329,7 @@ html.no-js .no-js-hidden {
 	.page-width-desktop {
 		padding: 0;
 	}
-	
+
 	.page-width-tablet {
 		padding: 0 4.8rem;
 	}
@@ -340,6 +340,7 @@ html.no-js .no-js-hidden {
 		max-width: 72.6rem;
 		padding: 0;
 	}
+	
 	.page-width-desktop {
 		max-width: var(--page-width);
 		padding: 0 2.4rem;
