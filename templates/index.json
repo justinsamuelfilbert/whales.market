@@ -16,19 +16,11 @@
             "text": "<p>Ultimate OTC DEX for trading Airdrop Allocations - Points - Tokens<br\/>Trustless - Peer to Peer - Secured<br\/>      <\/p>",
             "text_style": "body"
           }
-        },
-        "button_ha64g6": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
         "heading_xQ4GmG",
-        "text_3mqhxC",
-        "button_ha64g6"
+        "text_3mqhxC"
       ],
       "settings": {
         "class_suffix": "",
