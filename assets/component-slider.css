@@ -660,6 +660,7 @@ slider-component:hover .slider-button {
   background: #14f195;
   border-color: #14f195;
   color: #1f2937;
+  font-size: 1rem;
 }
 
 .grid__item .card-wrapper .quick-add {
