@@ -641,6 +641,12 @@ slider-component:hover .slider-button {
   transition: all 0.25s ease-in-out;
 }
 
+.grid__item .card-wrapper .price {
+  line-height: 1;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
 .grid__item .card-wrapper .price__regular .price-item--regular {
   display: flex;
   align-items: center;
