@@ -583,7 +583,11 @@ slider-component:hover .slider-button {
 
 /* Product */
 .grid__item.slider__slide .card-wrapper .card--card {
-  --card-image-padding: 0;
   border: 0;
   border-radius: 1.125rem;
+}
+
+.grid__item.slider__slide .card-wrapper .card__media {
+  margin: 0;
+  width: 100%;
 }
