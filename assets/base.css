@@ -3084,7 +3084,7 @@ details[open] > .header__submenu {
 }
 
 .header__menu-item:hover {
-	opacity: 1;
+	color: rgba(var(--color-base-accent-3));
 }
 
 .header__menu-item span {
