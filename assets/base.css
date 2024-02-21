@@ -3557,3 +3557,24 @@ details-disclosure > details {
 .background-overlay.hold {
 	opacity: 1;
 }
+
+.title-wrapper-02 {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.title-wrapper-02 .title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.title-wrapper-02 .title > span {
+  color: #d90e72;
+  background-image: -webkit-linear-gradient(0deg, #9945FF 0%, #19FB9B 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+}
