@@ -58,7 +58,7 @@
         "show_vendor": false,
         "show_rating": false,
         "show_product_description": false,
-        "enable_quick_add": false,
+        "enable_quick_add": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 128,
