@@ -618,3 +618,14 @@ slider-component:hover .slider-button {
   padding: 0;
   margin: 0;
 }
+
+.grid__item.slider__slide .card-wrapper .quick-add {
+  display: flex;
+  align-items: center;
+  height: 42px;
+  position: absolute;
+  top: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+  white-space: nowrap;
+}
