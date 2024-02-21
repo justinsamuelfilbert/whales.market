@@ -591,3 +591,22 @@ slider-component:hover .slider-button {
   margin: 0;
   width: 100%;
 }
+
+.grid__item.slider__slide .card-wrapper .card__content {
+  padding: 0;
+}
+
+.grid__item.slider__slide .card-wrapper .card__information {
+  background-color: rgba(0,0,0,0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 0.625rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: .5rem;
+  left: .5rem;
+  right: .5rem;
+  padding: .5rem 0.875rem;
+  z-index: 20;
+}
