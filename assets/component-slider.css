@@ -611,3 +611,10 @@ slider-component:hover .slider-button {
   padding: .5rem 0.875rem;
   z-index: 20;
 }
+
+.grid__item.slider__slide .card-wrapper .card__heading {
+  color: #0E1420;
+  font-size: 1.25rem;
+  padding: 0;
+  margin: 0;
+}
