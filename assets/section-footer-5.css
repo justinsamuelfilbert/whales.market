@@ -14,6 +14,10 @@
 	height: 24px;
 }
 
+.footer-05 .social-links a {
+	text-decoration: none;
+}
+
 .footer-05 .social-links svg {
 	fill: #fff;
 }
