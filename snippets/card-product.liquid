@@ -102,9 +102,9 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
-          <div class="order-wrap">
+          <div class="order-wrap"><div class="order-wrap-inner">
             {% render 'price', product: card_product, price_class: '' %}
-            
+
             {%- if show_quick_add -%}
               <div class="quick-add">
                 {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
@@ -170,7 +170,7 @@
                 {%- endif -%}
               </div>
             {%- endif -%}
-          </div>
+          </div></div>
 
         </div>
         <div class="card__badge {{ settings.badge_position }}">

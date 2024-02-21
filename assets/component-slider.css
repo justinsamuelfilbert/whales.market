@@ -625,6 +625,13 @@ slider-component:hover .slider-button {
   transition: all 0.25s ease-in-out;
 }
 
+.grid__item.slider__slide .card-wrapper .order-wrap-inner {
+  height: 42px;
+  width: 116px;
+  position: relative;
+  transition: all 0.25s ease-in-out;
+}
+
 .grid__item.slider__slide .card-wrapper .quick-add {
   display: flex;
   align-items: center;
