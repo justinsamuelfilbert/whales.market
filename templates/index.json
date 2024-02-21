@@ -36,13 +36,13 @@
     "de99a705-2695-4857-953e-c4d63681937b": {
       "type": "featured-collection",
       "settings": {
-        "title": "Explore the <span>Whales<\/span> Collection.",
+        "title": "Explore the Whales Collection.",
         "heading_size": "h2",
         "title_style": "02",
         "description_style": "body",
         "description": "",
         "show_description": false,
-        "collection": "frontpage",
+        "collection": "latest-products",
         "show_card_collection": false,
         "products_to_show": 12,
         "columns_desktop": 3,
