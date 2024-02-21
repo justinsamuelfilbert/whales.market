@@ -129,14 +129,6 @@
 	--color-button-text: var(--color-foreground);
 }
 
-.color-inverse .header__menu-item,
-.color-inverse .header__active-menu-item,
-.color-inverse .header__menu-item:hover,
-.color-inverse .header__menu-item:hover .header__active-menu-item,
-.color-inverse .header__menu-item:hover span {
-	color: rgba(255,255,255);
-}
-
 .color-inverse .header__menu-item > span::before {
 	background-color: rgba(var(--color-foreground));
 }
