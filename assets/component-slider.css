@@ -641,6 +641,16 @@ slider-component:hover .slider-button {
   transition: all 0.25s ease-in-out;
 }
 
+.price__regular .price-item--regular {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  height: 42px;
+  color: rgba(var(--color-base-accent-3));
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
 .grid__item.slider__slide .card-wrapper .quick-add {
   display: flex;
   align-items: center;
