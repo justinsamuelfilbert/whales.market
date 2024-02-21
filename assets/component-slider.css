@@ -619,6 +619,12 @@ slider-component:hover .slider-button {
   margin: 0;
 }
 
+.grid__item.slider__slide .card-wrapper .order-wrap {
+  overflow: hidden;
+  height: 42px;
+  transition: all 0.25s ease-in-out;
+}
+
 .grid__item.slider__slide .card-wrapper .quick-add {
   display: flex;
   align-items: center;
