@@ -655,8 +655,7 @@ slider-component:hover .slider-button {
   display: flex;
   align-items: center;
   height: 42px;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding: 0 1rem;
   white-space: nowrap;
 }
 
