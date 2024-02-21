@@ -617,8 +617,15 @@ slider-component:hover .slider-button {
   font-size: 1.25rem;
   padding: 0;
   margin: 0;
-  width: calc(100% - 114px);
+  width: calc(100% - 20px);
   overflow: hidden;
+}
+
+.grid__item.slider__slide .card-wrapper .card__heading a {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .grid__item.slider__slide .card-wrapper .order-wrap {
