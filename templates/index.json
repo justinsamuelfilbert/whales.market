@@ -42,7 +42,7 @@
         "description_style": "body",
         "description": "",
         "show_description": false,
-        "collection": "best-sellers",
+        "collection": "frontpage",
         "show_card_collection": false,
         "products_to_show": 12,
         "columns_desktop": 3,
