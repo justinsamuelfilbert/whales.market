@@ -65,6 +65,10 @@
     text-transform: uppercase;
 }
 
+.header > .header__heading {
+    min-width: 240px;
+}
+
 .header > .header__heading > .header__heading-link {
     padding: 0;
     margin-left: 0;
