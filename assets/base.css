@@ -3077,8 +3077,8 @@ details[open] > .header__submenu {
 	line-height: 1.625;
 }
 
-{
-
+.header__menu-item span {
+	color: rgb(255,255,255);
 }
 
 @media screen and (min-width: 1200px) {
