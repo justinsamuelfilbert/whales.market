@@ -3077,7 +3077,7 @@ details[open] > .header__submenu {
 	line-height: 1.625;
 }
 
-.header__menu-item span {
+.header__menu-item > span {
 	color: rgb(255,255,255);
 }
 
@@ -3087,8 +3087,8 @@ details[open] > .header__submenu {
 	}
 }
 
-.header__menu-item:hover span,
-.header__menu-item .header__active-menu-item {
+.header__menu-item:hover > span,
+.header__menu-item > .header__active-menu-item {
 	color: rgba(var(--color-base-accent-3));
 }
 
