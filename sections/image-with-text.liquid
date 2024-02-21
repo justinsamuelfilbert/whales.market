@@ -17,44 +17,46 @@
   }
 {%- endstyle -%}
 
-<div class="image-with-text image-with-text--{{ section.settings.content_layout }} page-width isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding {% if section.settings.class_suffix != blank %} {{ section.settings.class_suffix }}{% endif %}">
-  <div class="image-with-text__grid">
-    <div class="image-with-text__text-item">
-      <div id="ImageWithText--{{ section.id }}" class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container">
-        {%- for block in section.blocks -%}
-          {% case block.type %}
-            {%- when 'heading' -%}
-              <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
-                {{ block.settings.heading | escape }}
-              </h2>
-            {%- when 'caption' -%}
-              <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
-            {%- when 'text' -%}
-              <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
-            {%- when 'button' -%}
-              {%- if block.settings.button_label != blank -%}
-                <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
-                  {{ block.settings.button_label | escape }}
-                </a>
-              {%- endif -%}
-          {%- endcase -%}
-        {%- endfor -%}
+<div class="image-with-text image-with-text--{{ section.settings.content_layout }} isolate{% if settings.text_boxes_border_thickness > 0 and settings.text_boxes_border_opacity > 0 and settings.media_border_thickness > 0 and settings.media_border_opacity > 0 %} collapse-borders{% endif %}{% unless section.settings.color_scheme == 'background-1' and settings.media_border_thickness > 0 and settings.text_boxes_shadow_opacity == 0 and settings.text_boxes_border_thickness == 0 or settings.text_boxes_border_opacity == 0 %} collapse-corners{% endunless %} section-{{ section.id }}-padding {% if section.settings.class_suffix != blank %} {{ section.settings.class_suffix }}{% endif %}">
+  <div class="page-width ">
+    <div class="image-with-text__grid">
+      <div class="image-with-text__text-item">
+        <div id="ImageWithText--{{ section.id }}" class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container">
+          {%- for block in section.blocks -%}
+            {% case block.type %}
+              {%- when 'heading' -%}
+                <h2 class="image-with-text__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                  {{ block.settings.heading | escape }}
+                </h2>
+              {%- when 'caption' -%}
+                <p class="image-with-text__text image-with-text__text--caption {{ block.settings.text_style }} {{ block.settings.text_style }}--{{ block.settings.text_size }} {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.caption | escape }}</p>
+              {%- when 'text' -%}
+                <div class="image-with-text__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>{{ block.settings.text }}</div>
+              {%- when 'button' -%}
+                {%- if block.settings.button_label != blank -%}
+                  <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+                    {{ block.settings.button_label | escape }}
+                  </a>
+                {%- endif -%}
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
       </div>
-    </div>
-    
-    {%- if section.settings.image != blank -%}
-    <div class="image-with-text__media-item">
-      <div class="image-with-text__media-item-inner">
-          <img
-            src="{{ section.settings.image | image_url: width: 750 }}"
-            alt="{{ section.settings.image.alt | escape }}"
-            loading="lazy"
-            width="750"
-            height="409"
-          >
+      
+      {%- if section.settings.image != blank -%}
+      <div class="image-with-text__media-item">
+        <div class="image-with-text__media-item-inner">
+            <img
+              src="{{ section.settings.image | image_url: width: 750 }}"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="750"
+              height="409"
+            >
+        </div>
       </div>
+      {%- endif -%}
     </div>
-    {%- endif -%}
   </div>
 </div>
 
