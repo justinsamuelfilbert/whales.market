@@ -10,7 +10,7 @@
 #shopify-section-header-04 {
     border-top: 3px solid rgba(var(--color-base-accent-3));
     border-bottom-style: solid;
-    border-color: rgba(255, 255, 255, 0.1);
+    border-bottom-color: rgba(255, 255, 255, 0.1);
     border-bottom-width: 1px;
 }
 
