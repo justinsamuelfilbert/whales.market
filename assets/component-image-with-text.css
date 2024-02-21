@@ -299,7 +299,10 @@
 }
 
 .image-with-text__content > * + * {
-  margin-top: 2rem;
+  color: var(--text-light);
+  font-size: 1.5rem;
+  font-weight: 500;
+  opacity: 0.7;
 }
 
 .image-with-text__content > .image-with-text__text:empty ~ a {
