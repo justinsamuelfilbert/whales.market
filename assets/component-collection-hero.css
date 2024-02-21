@@ -66,8 +66,13 @@
     color: #fff;
 }
 
-.collection-hero__title span {
-    color: #fff;
+.collection-hero__title > span {
+    color: #d90e72;
+    background-image: -webkit-linear-gradient(0deg, #9945FF 0%, #19FB9B 50%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 .collection-hero__title+.collection-hero__description {
