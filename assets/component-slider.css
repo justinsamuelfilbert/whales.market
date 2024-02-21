@@ -617,7 +617,7 @@ slider-component:hover .slider-button {
   font-size: 1.25rem;
   padding: 0;
   margin: 0;
-  width: calc(100% - 120px);
+  width: calc(100% - 155px);
   overflow: hidden;
 }
 
@@ -636,7 +636,7 @@ slider-component:hover .slider-button {
 
 .grid__item .card-wrapper .order-wrap-inner {
   height: 42px;
-  width: 116px;
+  width: 155px;
   position: relative;
   transition: all 0.25s ease-in-out;
 }
