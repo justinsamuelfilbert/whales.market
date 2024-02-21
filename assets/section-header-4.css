@@ -83,7 +83,10 @@
 }
 
 .header__icons {
-    justify-self: end;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    min-width: 240px;
     width: auto;
 }
 
