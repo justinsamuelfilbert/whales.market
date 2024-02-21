@@ -655,7 +655,6 @@ slider-component:hover .slider-button {
   display: flex;
   align-items: center;
   height: 42px;
-  position: absolute;
   top: 100%;
   padding-top: 0;
   padding-bottom: 0;
@@ -663,12 +662,7 @@ slider-component:hover .slider-button {
 }
 
 .grid__item .card-wrapper .quick-add {
-  display: flex;
-  align-items: center;
   height: 42px;
   position: absolute;
   top: 100%;
-  padding-top: 0;
-  padding-bottom: 0;
-  white-space: nowrap;
 }
