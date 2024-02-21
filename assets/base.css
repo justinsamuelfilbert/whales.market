@@ -3075,7 +3075,6 @@ details[open] > .header__submenu {
 	font-weight: 400;
 	font-size: 1rem;
 	line-height: 1.625;
-	opacity: 0.6;
 }
 
 @media screen and (min-width: 1200px) {
