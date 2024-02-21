@@ -24,6 +24,12 @@
 	opacity: 0.4;
 }
 
+.footer-05 .social-links a:hover,
+.footer-05 .social-links a:focus,
+.footer-05 .social-links a:active {
+	opacity: 1;
+}
+
 .footer-05 .social-links svg {
 	fill: #fff;
 }
