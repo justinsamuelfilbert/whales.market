@@ -617,7 +617,7 @@ slider-component:hover .slider-button {
   font-size: 1.25rem;
   padding: 0;
   margin: 0;
-  width: calc(100% - 20px);
+  width: calc(100% - 120px);
   overflow: hidden;
 }
 
