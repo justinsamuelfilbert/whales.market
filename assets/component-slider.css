@@ -641,7 +641,7 @@ slider-component:hover .slider-button {
   transition: all 0.25s ease-in-out;
 }
 
-.price__regular .price-item--regular {
+.grid__item.slider__slide .card-wrapper .price__regular .price-item--regular {
   display: flex;
   align-items: center;
   justify-content: end;
