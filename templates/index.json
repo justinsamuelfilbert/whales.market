@@ -6,25 +6,25 @@
         "heading_xQ4GmG": {
           "type": "heading",
           "settings": {
-            "heading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ipsum tellus, porta vitae orci elementum, ultricies congue felis.",
+            "heading": "Merch Whales",
             "heading_size": "h2"
           }
         },
-        "button_fVWbXf": {
-          "type": "button",
+        "text_3mqhxC": {
+          "type": "text",
           "settings": {
-            "button_label": "View all products",
-            "button_link": "shopify:\/\/collections\/all"
+            "text": "<p>Ultimate OTC DEX for trading Airdrop Allocations - Points - Tokens<br\/>Trustless - Peer to Peer - Secured<br\/>      <\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
         "heading_xQ4GmG",
-        "button_fVWbXf"
+        "text_3mqhxC"
       ],
       "settings": {
         "class_suffix": "",
-        "bg_image": "shopify:\/\/shop_images\/hero-bg.png",
+        "bg_image": "shopify:\/\/shop_images\/hero-bg.jpg",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
@@ -121,11 +121,6 @@
         "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64,
-        "border_top_thickness": 1,
-        "border_right_thickness": 0,
-        "border_bottom_thickness": 1,
-        "border_left_thickness": 0,
-        "border_opacity": 100,
         "mod_class": ""
       }
     },
@@ -213,11 +208,6 @@
         "swipe_on_mobile": true,
         "padding_top": 64,
         "padding_bottom": 64,
-        "border_top_thickness": 1,
-        "border_right_thickness": 0,
-        "border_bottom_thickness": 1,
-        "border_left_thickness": 0,
-        "border_opacity": 100,
         "mod_class": "new-arrivals-collection"
       }
     }
