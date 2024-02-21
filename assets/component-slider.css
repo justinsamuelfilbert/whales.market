@@ -657,6 +657,9 @@ slider-component:hover .slider-button {
   height: 42px;
   padding: 0 1rem;
   white-space: nowrap;
+  background: #14f195;
+  border-color: var(--accent);
+  color: var(--text-dark);
 }
 
 .grid__item .card-wrapper .quick-add {
