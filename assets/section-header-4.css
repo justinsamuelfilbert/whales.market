@@ -187,6 +187,13 @@
     height: 21px;
 }
 
+.button-connect-wallet {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    font-weight: 500;
+}
+
 .button-connect-wallet svg {
     width: 16px;
     height: 16px;
