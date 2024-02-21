@@ -3074,7 +3074,7 @@ details[open] > .header__submenu {
 	position: relative;
 }
 
-.header__menu-item > span:after{
+.header__menu-item > span:after {
 	content: "";
   position: absolute;
   bottom: -3px;
