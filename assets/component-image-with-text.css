@@ -326,8 +326,10 @@
 }
 
 .image-with-text__heading {
-  word-break: break-word;
-  margin-bottom: 0;
+  color: var(--text-light);
+  font-size: 6rem;
+  margin: 0 0 2rem;
+  line-height: 1;
 }
 
 .image-with-text__text p {
