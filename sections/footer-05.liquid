@@ -39,41 +39,6 @@
 {%- endstyle -%}
 
 <footer class="footer footer-05 color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  {%- unless section.settings.heading == blank -%}
-    <div class="footer__title title-wrapper title-wrapper--no-top-margin title-wrapper-03 ">
-      <div class="inner">
-        <h2 class="footer__title title {{ section.settings.heading_size }}">
-          <div class="marquee-group">
-            <div class="marquee">
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span> 
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span> 
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-            </div>
-            <div class="marqueee">
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span> 
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span> 
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-              <span>{{ section.settings.heading | escape }}</span>
-            </div>
-          </div>
-        </h2>
-      </div>
-    </div>
-  {%- endunless -%}
-  
   {%- if section.blocks.size > 0 or section.settings.newsletter_enable -%}
     {% comment %} Footer Content Top {% endcomment %}
     <div class="footer__content-top">
