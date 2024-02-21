@@ -582,22 +582,22 @@ slider-component:hover .slider-button {
 }
 
 /* Product */
-.grid__item.slider__slide .card-wrapper .card--card {
+.grid__item .card-wrapper .card--card {
   border: 0;
   border-radius: 1.125rem;
 }
 
-.grid__item.slider__slide .card-wrapper .card__media {
+.grid__item .card-wrapper .card__media {
   margin: 0;
   width: 100%;
 }
 
-.grid__item.slider__slide .card-wrapper .card__content {
+.grid__item .card-wrapper .card__content {
   padding: 0;
   margin: 0;
 }
 
-.grid__item.slider__slide .card-wrapper .card__information {
+.grid__item .card-wrapper .card__information {
   background-color: rgba(0,0,0,0.1);
   backdrop-filter: blur(10px);
   border-radius: 0.625rem;
@@ -612,7 +612,7 @@ slider-component:hover .slider-button {
   z-index: 20;
 }
 
-.grid__item.slider__slide .card-wrapper .card__heading {
+.grid__item .card-wrapper .card__heading {
   color: #0E1420;
   font-size: 1.25rem;
   padding: 0;
@@ -621,27 +621,27 @@ slider-component:hover .slider-button {
   overflow: hidden;
 }
 
-.grid__item.slider__slide .card-wrapper .card__heading a {
+.grid__item .card-wrapper .card__heading a {
   display: block;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-.grid__item.slider__slide .card-wrapper .order-wrap {
+.grid__item .card-wrapper .order-wrap {
   overflow: hidden;
   height: 42px;
   transition: all 0.25s ease-in-out;
 }
 
-.grid__item.slider__slide .card-wrapper .order-wrap-inner {
+.grid__item .card-wrapper .order-wrap-inner {
   height: 42px;
   width: 116px;
   position: relative;
   transition: all 0.25s ease-in-out;
 }
 
-.grid__item.slider__slide .card-wrapper .price__regular .price-item--regular {
+.grid__item .card-wrapper .price__regular .price-item--regular {
   display: flex;
   align-items: center;
   justify-content: end;
@@ -651,7 +651,7 @@ slider-component:hover .slider-button {
   font-weight: 700;
 }
 
-.grid__item.slider__slide .card-wrapper .quick-add {
+.grid__item .card-wrapper .quick-add {
   display: flex;
   align-items: center;
   height: 42px;
