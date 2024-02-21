@@ -13,3 +13,7 @@
 	max-width: 30px;
 	height: 24px;
 }
+
+.footer-05 .social-links svg {
+	fill: #fff;
+}
