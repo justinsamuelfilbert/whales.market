@@ -584,4 +584,5 @@ slider-component:hover .slider-button {
 /* Product */
 .grid__item.slider__slide .card-wrapper .card--card {
   border: 0;
+  border-radius: 1.125rem;
 }
