@@ -642,12 +642,6 @@ slider-component:hover .slider-button {
 }
 
 .grid__item .card-wrapper .price {
-  line-height: 1;
-  font-size: 1.125rem;
-  font-weight: 700;
-}
-
-.grid__item .card-wrapper .price__regular .price-item--regular {
   display: flex;
   align-items: center;
   justify-content: end;
@@ -655,6 +649,10 @@ slider-component:hover .slider-button {
   color: rgba(var(--color-base-accent-3));
   font-size: 1.125rem;
   font-weight: 700;
+}
+
+.grid__item .card-wrapper .price__regular .price-item--regular {
+  
 }
 
 .grid__item .card-wrapper .quick-add {
