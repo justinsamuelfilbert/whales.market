@@ -580,3 +580,8 @@ slider-component:hover .slider-button {
 .slider-navigation .slider-button--next {
   right: -2px;
 }
+
+/* Product */
+.grid__item.slider__slide {
+  
+}
