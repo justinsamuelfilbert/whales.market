@@ -1733,7 +1733,7 @@ button.shopify-payment-button__button--unbranded {
 .shopify-challenge__button,
 .customer button {
 	font-size: 1.125rem;
-  	line-height: 1.75rem;
+  line-height: 1.75rem;
 	background: #14f195;
 	color: rgb(31,41,55);
 	font-weight: 600;
