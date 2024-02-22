@@ -544,3 +544,8 @@
     font-size: 2.4rem;
   }
 }
+
+.image-banner__media-item-inner img {
+  max-width: 100%;
+  border-radius: 1.3rem;
+}
