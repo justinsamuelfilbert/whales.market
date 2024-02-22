@@ -364,6 +364,12 @@ html.no-js .no-js-hidden {
 	}
 }
 
+@media screen and (min-width: 1440px) {
+	.page-width {
+		padding: 0;
+	}
+}
+
 .isolate {
 	position: relative;
 	z-index: 0;
