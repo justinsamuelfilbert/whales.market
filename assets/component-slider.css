@@ -597,7 +597,7 @@ slider-component:hover .slider-button {
 
 .grid__item .card-wrapper .card__information {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: space-between;
 }
 
