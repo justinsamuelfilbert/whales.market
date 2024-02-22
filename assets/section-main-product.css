@@ -571,6 +571,8 @@ fieldset.product-form__input .form__label {
   letter-spacing: .1rem;
   text-transform: uppercase;
   justify-content: center;
+  font-family: inherit;
+  min-height: 4.6rem;
 }
 
 .product__info-container .price--on-sale .badge {
