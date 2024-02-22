@@ -213,7 +213,6 @@ cart-drawer-items {
 
 .cart-drawer .cart-item {
   display: grid;
-  grid-template: repeat(2,auto) / repeat(4,1fr);
   gap: 0;
   margin-bottom: 0;
 }
