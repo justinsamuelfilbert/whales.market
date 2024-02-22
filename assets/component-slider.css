@@ -644,6 +644,7 @@ slider-component:hover .slider-button {
 .grid__item .card-wrapper .quick-add__submit {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 42px;
   width: 100%;
   padding: 0 1rem;
