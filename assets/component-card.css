@@ -118,7 +118,7 @@
 
 .card__information {
     grid-row-start: 2;
-    padding: 0;
+    padding: 1 0 0;
 }
 
 .card:not(.ratio)>.card__content {
@@ -128,7 +128,7 @@
 @media screen and (min-width: 750px) {
     .card__information {
         padding-bottom: 0;
-        padding-top: 1.7rem;
+        padding-top: 1rem 0 0;
     }
 }
 
