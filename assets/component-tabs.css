@@ -62,8 +62,8 @@
 }
 
 .nav-tabs li.active .summary__title {
-	color: rgba(0, 0, 0, 1);
-	border-bottom-color: rgba(0, 0, 0, 1);
+	color: #9945FF;
+	border-bottom-color: #9945FF;
 }
 
 .tab .icon-accordion {
