@@ -335,6 +335,12 @@
   line-height: 1;
 }
 
+@media screen and (min-width: 990px) {
+  .image-with-text__heading {
+    font-size: 4rem;
+  }
+}
+
 .image-with-text__text p {
   word-break: break-word;
   margin-top: 0;
