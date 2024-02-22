@@ -16,6 +16,8 @@
 .price--end {
     text-align: center;
     color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
 }
 
 .price .price-item {
