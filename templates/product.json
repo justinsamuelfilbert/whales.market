@@ -183,7 +183,7 @@
       "settings": {
         "collapsible_type": "tabs",
         "box_width": 60,
-        "collapsible_tab_header_position": "left",
+        "collapsible_tab_header_position": "top",
         "padding_top": 0,
         "padding_bottom": 100
       }
