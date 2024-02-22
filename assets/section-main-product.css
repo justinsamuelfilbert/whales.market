@@ -549,8 +549,9 @@ fieldset.product-form__input .form__label {
 
 .product__info-container .price--on-sale .price__sale,
 .product__info-container .price__regular .price-item--regular {
-	color: rgba(var(--color-base-accent-3));
-	font-size: 24px;
+	color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .product__info-container .product-form {
