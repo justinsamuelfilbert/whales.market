@@ -26,6 +26,13 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  @media screen and (max-width: 989px) {
+    .section-{{ section.id }}-padding {
+      padding-left: 2.4rem;
+      padding-right: 2.4rem;
+    }
+  }
 {%- endstyle -%}
 
 {%- liquid
