@@ -5,6 +5,7 @@
   text-decoration: none;
   padding: 1px;
   border-radius: 1rem;
+  overflow: hidden;
 }
 
 .card-wrapper:before {
