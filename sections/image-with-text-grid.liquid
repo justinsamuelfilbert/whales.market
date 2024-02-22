@@ -17,7 +17,19 @@
 <div class="image-banner">
   <div class="section-{{ section.id }}-padding">
     <div class="page-width">
-      
+      {%- if section.settings.image != blank -%}
+      <div class="image-with-text__media-item">
+        <div class="image-with-text__media-item-inner">
+            <img
+              src="{{ section.settings.image | image_url: width: 750 }}"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="750"
+              height="409"
+            >
+        </div>
+      </div>
+      {%- endif -%}
     </div>
   </div>
 </div>
