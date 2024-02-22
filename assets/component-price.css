@@ -15,6 +15,7 @@
 
 .price--end {
     text-align: center;
+    color: rgba(var(--color-base-accent-3));
 }
 
 .price .price-item {
