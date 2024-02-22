@@ -16,7 +16,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to right bottom, #19FB9B , #9945FF );
+  background-image: linear-gradient(to left top, #19FB9B , #9945FF );
   opacity: .4;
 }
 
