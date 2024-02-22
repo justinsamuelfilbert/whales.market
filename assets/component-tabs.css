@@ -43,8 +43,9 @@
 	padding-left: 0;
 	text-transform: uppercase;
 }
+
 .nav-tabs li {
-	margin: 0 16px;
+	margin: 0;
 }
 
 .tab .summary__title {
