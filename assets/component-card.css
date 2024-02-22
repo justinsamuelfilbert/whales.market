@@ -3,6 +3,7 @@
     height: 100%;
     position: relative;
     text-decoration: none;
+    padding: 1px;
 }
 
 .card {
@@ -23,8 +24,6 @@
 
 .card--card,
 .card--standard .card__inner {
-    border-radius: 1.5rem;
-    border: 1px solid rgba(25,251,155,.3);
     position: relative;
     box-sizing: border-box;
     background-color: #171D29;
