@@ -25,6 +25,12 @@ cart-items .continue-shopping {
   text-transform: uppercase;
 }
 
+cart-items .continue-shopping:hover,
+cart-items .continue-shopping:focus,
+cart-items .continue-shopping:active {
+  color: #fff;
+}
+
 .cart__empty-text,
 .is-empty .cart__contents,
 cart-items.is-empty .title-wrapper-with-link,
