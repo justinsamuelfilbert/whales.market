@@ -21,6 +21,7 @@
 .footer-05 .social-links {
 	gap: .5rem;
   display: flex;
+  min-width: 160px;
 }
 
 .footer-05 .social-links a {
