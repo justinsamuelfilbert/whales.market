@@ -66,7 +66,7 @@
 }
 
 .header > .header__heading {
-    min-width: 240px;
+    min-width: 125px;
 }
 
 .header > .header__heading > .header__heading-link {
