@@ -309,7 +309,7 @@ cart-drawer-items {
 }
 
 .cart-drawer .cart-items .cart-item__quantity {
-  padding-top: 0;
+  padding-top: .6rem;
   grid-column: 2 / 5;
 }
 
