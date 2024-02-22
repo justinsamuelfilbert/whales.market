@@ -635,8 +635,8 @@ slider-component:hover .slider-button {
   justify-content: end;
   height: 42px;
   color: #fff;
-  font-size: 1.125rem;
-  font-weight: 700;
+  font-size: 1.5rem;
+  font-weight: 600;
 }
 
 .grid__item .card-wrapper .quick-add__submit {
