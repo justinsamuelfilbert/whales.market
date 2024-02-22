@@ -353,7 +353,21 @@ cart-drawer-items {
 }
 
 .cart-drawer .cart__checkout-button {
-  max-width: none;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  background: #14f195;
+  display: block;
+  color: #1f2937;
+  font-weight: 600;
+  padding: .75rem 1.5rem;
+  border-radius: .375rem;
+  border: 0;
+  cursor: pointer;
+  text-align: center;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  font-family: inherit;
+  min-height: 4.6rem;
 }
 
 .drawer__footer .cart__dynamic-checkout-buttons {
