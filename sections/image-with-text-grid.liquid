@@ -4,9 +4,6 @@
   .section-{{ section.id }}-padding {
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-    border-bottom-style: solid;
-    border-bottom-color: rgba(255, 255, 255, 0.1);
-    border-bottom-width: 1px;
   }
 
   @media screen and (min-width: 750px) {
@@ -17,59 +14,9 @@
   }
 {%- endstyle -%}
 
-{%- liquid
-  assign columns_mobile_int = section.settings.columns_mobile | plus: 0
-  assign show_mobile_slider = false
-  if section.settings.swipe_on_mobile and section.blocks.size > columns_mobile_int
-    assign show_mobile_slider = true
-  endif
--%}
-
-<div class="image-with-text image-with-text-grid {% if section.settings.title == blank %} no-heading{% endif %}">
+<div class="image-banner">
   <div class="{% if section.settings.layout == 'grid' %} page-width{% endif %} section-{{ section.id }}-padding color-inverse gradient isolate">
-    {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper-03">
-        <div class="inner">
-          {%- if section.settings.title != blank -%}
-            <h2 class="title {{ section.settings.heading_size }}">
-              {% if section.settings.title_style == "03" %}
-              <div class="marquee-group">
-                <div class="marquee">
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span> 
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                </div>
-                <div class="marqueee">
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span> 
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                  <span>{{ section.settings.title | escape }}</span>
-                </div>
-              </div>
-              {% else %}
-                {{ section.settings.title | escape }}
-              {% endif %}
-            </h2>
-          {%- endif -%}
-          {%- if section.settings.button_label != blank and show_mobile_slider -%}
-            <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">{{ section.settings.button_label | escape }}</a>
-          {%- endif -%}
-        </div>
-      </div>
-    {%- endunless -%}
+
     <div class="grid {% if section.settings.layout == 'grid--gapless' %} grid--gapless{% endif %} grid--1-col grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
       {%- for block in section.blocks -%}
         <div class="grid__item content-container">
@@ -115,36 +62,6 @@
     </ul>
   </div>
 </div>
-
-{% if section.settings.title_style == "03" %}
-<script type="text/javascript">
-const _getposy = document.querySelector(".image-with-text-grid .marquee");
-const _getposl = document.querySelector(".image-with-text-grid .marqueee");
-
-const _config = {
-  speed: 1,
-  ease: 1
-}
-
-window.addEventListener("scroll", function() {
-  let pageY = window.pageYOffset;
-  let bodyRect = _getposy.getBoundingClientRect();
-  let bodyRectl = _getposl.getBoundingClientRect();
-  //--
-  gsap.to('.image-with-text-grid .marqueee', {
-    duration:_config.speed,
-    x: -(pageY-(bodyRectl.top - window.innerWidth))/2,
-    ease: _config.ease
-  });
-  gsap.to(".image-with-text-grid .marquee", {
-    duration:_config.speed,
-    x: -(pageY-(bodyRectl.top - window.innerWidth))/3,
-    ease: _config.ease
-  });
-})
-
-</script>
-{%- endif -%}
 
 {% schema %}
 {
