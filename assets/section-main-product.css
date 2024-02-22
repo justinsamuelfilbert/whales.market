@@ -567,6 +567,7 @@ fieldset.product-form__input .form__label {
   border-radius: .375rem;
   border: 0;
   cursor: pointer;
+  text-align: center;
 }
 
 .product__info-container .price--on-sale .badge {
