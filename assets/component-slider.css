@@ -616,10 +616,6 @@ slider-component:hover .slider-button {
 }
 
 .grid__item .card-wrapper .card__heading a {
-  display: block;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .grid__item .card-wrapper .order-wrap {
