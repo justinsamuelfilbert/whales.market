@@ -600,7 +600,7 @@ slider-component:hover .slider-button {
 .grid__item .card-wrapper .card__information {
   display: flex;
   align-items: center;
-  justify-content: space-between;=
+  justify-content: space-between;
 }
 
 .grid__item .card-wrapper .card__heading {
