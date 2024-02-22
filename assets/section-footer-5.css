@@ -2,6 +2,13 @@
 	padding: 0;
 }
 
+@media screen and (max-width: 989px) {
+  .footer-05 {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+}
+
 .footer-05 .page-width {
 	padding-top: 2rem;
   padding-bottom: 2rem;
