@@ -42,8 +42,8 @@
 
 .cart-item__image {
   height: auto;
-  max-width: calc(10rem / var(--font-body-scale));
-  min-width: 6rem;
+  max-width: 100%;
+  min-width: 3rem;
 }
 
 @media screen and (min-width: 750px) {
