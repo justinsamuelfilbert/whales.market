@@ -660,6 +660,7 @@ slider-component:hover .slider-button {
   right: 1rem;
   left: 1rem;
   transition: all 0.25s ease-in-out;
+  text-align: center;
 }
 
 .grid__item .card-wrapper:hover .quick-add {
