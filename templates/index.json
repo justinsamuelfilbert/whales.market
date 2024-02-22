@@ -70,9 +70,9 @@
       "type": "image-with-text-grid",
       "settings": {
         "image": "shopify:\/\/shop_images\/banner.jpg",
-        "link": "",
+        "link": "shopify:\/\/products\/girlie-college-hoodie",
         "padding_top": 0,
-        "padding_bottom": 128
+        "padding_bottom": 0
       }
     }
   },
