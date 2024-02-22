@@ -719,10 +719,6 @@ table:not([class]) {
 	table-layout: fixed;
 	border-collapse: collapse;
 	font-size: 1.4rem;
-	border-style: hidden;
-	box-shadow: 0 0 0 0.1rem rgba(255,255,255, 0.1);
-	border-left: 0.1rem solid rgba(255,255,255, 0.1);
-	/* draws the table border  */
 }
 
 table:not([class]) td,
