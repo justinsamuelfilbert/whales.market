@@ -634,7 +634,7 @@ slider-component:hover .slider-button {
   align-items: center;
   justify-content: end;
   height: 42px;
-  color: rgba(var(--color-base-accent-3));
+  color: #fff;
   font-size: 1.125rem;
   font-weight: 700;
 }
