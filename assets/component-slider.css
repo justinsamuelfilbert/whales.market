@@ -603,12 +603,15 @@ slider-component:hover .slider-button {
   justify-content: space-between;
 }
 
+.grid__item .card-wrapper .card_heading-wrap {
+  width: calc(100% - 155px);
+}
+
 .grid__item .card-wrapper .card__heading {
   color: #0E1420;
   font-size: 1.25rem;
   padding: 0;
   margin: 0;
-  width: calc(100% - 155px);
   overflow: hidden;
 }
 
