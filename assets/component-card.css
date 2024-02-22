@@ -183,6 +183,8 @@
     text-transform: uppercase;
     font-size: 12px;
     font-weight: normal;
+    display: flex;
+    gap: 0.5rem;
 }
 
 .card__heading {
