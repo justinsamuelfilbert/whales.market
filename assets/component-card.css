@@ -53,7 +53,7 @@
 
 .card--card .media, 
 .card--standard .card__inner .media {
-    border-radius: 1rem;
+    border-radius: 6px;
 }
 
 .card .card__inner .color-new_badge {
