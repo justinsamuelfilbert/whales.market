@@ -6,14 +6,14 @@
         "heading_xQ4GmG": {
           "type": "heading",
           "settings": {
-            "heading": "<span>Store of Whales.<\/span> Market's Fans",
+            "heading": "<span>\"I ❤ Whales.Market\"<\/span> Shop",
             "heading_size": "h1"
           }
         },
         "text_3mqhxC": {
           "type": "text",
           "settings": {
-            "text": "<p>\"I ❤ Whales Market\" Caps: Stylish caps with embroidered Whales Market branding, perfect for blockchain enthusiasts.<\/p>",
+            "text": "<p>Stylish hoodies, tees, and bags with embroidered Whales Market branding—perfect for blockchain fans.<\/p>",
             "text_style": "body"
           }
         }
@@ -36,7 +36,7 @@
     "de99a705-2695-4857-953e-c4d63681937b": {
       "type": "featured-collection",
       "settings": {
-        "title": "<span>Whales Market<\/span> Collection",
+        "title": "<span>Whales.Market<\/span> Collection",
         "heading_size": "h2",
         "title_style": "02",
         "description_style": "body",
