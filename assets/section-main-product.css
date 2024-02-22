@@ -1,5 +1,4 @@
 .product-page .section:not(:last-of-type) {
-	border-bottom: 2px solid rgba(var(--color-base-accent-1));
 }
 .product {
 	margin: 0;
