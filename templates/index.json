@@ -36,7 +36,7 @@
     "de99a705-2695-4857-953e-c4d63681937b": {
       "type": "featured-collection",
       "settings": {
-        "title": "<span>Whales Market<\/span> Collection",
+        "title": "Whales Market Collection",
         "heading_size": "h2",
         "title_style": "02",
         "description_style": "body",
@@ -60,7 +60,7 @@
         "show_product_description": false,
         "enable_quick_add": true,
         "columns_mobile": "1",
-        "swipe_on_mobile": true,
+        "swipe_on_mobile": false,
         "padding_top": 128,
         "padding_bottom": 128,
         "mod_class": ""
