@@ -568,6 +568,9 @@ fieldset.product-form__input .form__label {
   border: 0;
   cursor: pointer;
   text-align: center;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  justify-content: center;
 }
 
 .product__info-container .price--on-sale .badge {
