@@ -133,8 +133,8 @@
 	}
 	.product_tabs_positions_right .tab-header li.active .summary__title,
 	.product_tabs_positions_left .tab-header li.active .summary__title {
-		border-bottom-color: rgba(0, 0, 0, 1);
-		color: rgba(0, 0, 0, 1);
+		border-bottom-color: rgba(255, 255, 255, 1);
+		color: rgba(255, 255, 255, 1);
 	}
 	.product_tabs_positions_left .tab-header .icon-accordion {
 		order: 2;
