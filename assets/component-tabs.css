@@ -48,6 +48,10 @@
 	margin: 0;
 }
 
+.nav-tabs li + li {
+	margin-left: 1rem;
+}
+
 .tab .summary__title {
 	color: rgb(var(--color-base-text));
 	display: flex;
