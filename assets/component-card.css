@@ -4,6 +4,7 @@
   position: relative;
   text-decoration: none;
   padding: 1px;
+  border-radius: 1rem;
 }
 
 .card-wrapper:before {
@@ -36,9 +37,10 @@
 
 .card--card,
 .card--standard .card__inner {
-    position: relative;
-    box-sizing: border-box;
-    background-color: #171D29;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #171D29;
+  border-radius: 1rem;
 }
 
 .card .card__inner .card__media {
