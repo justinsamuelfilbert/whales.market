@@ -548,4 +548,5 @@
 .image-banner__media-item-inner img {
   max-width: 100%;
   display: inline-block;
+  height: auto;
 }
