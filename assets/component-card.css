@@ -1,9 +1,21 @@
 .card-wrapper {
-    color: inherit;
-    height: 100%;
-    position: relative;
-    text-decoration: none;
-    padding: 1px;
+  color: inherit;
+  height: 100%;
+  position: relative;
+  text-decoration: none;
+  padding: 1px;
+}
+
+.card-wrapper:before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(to right bottom, #19FB9B , #9945FF );
+  opacity: .4;
 }
 
 .card {
