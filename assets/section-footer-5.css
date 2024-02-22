@@ -19,7 +19,7 @@
 }
 
 .footer-05 .social-links {
-	gap: .5rem;
+	gap: 1rem;
   display: flex;
   min-width: 160px;
   justify-content: end;
