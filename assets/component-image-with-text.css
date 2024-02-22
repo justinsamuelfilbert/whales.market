@@ -335,11 +335,20 @@
   line-height: 1;
 }
 
+.image-with-text__text {
+  width: 100%;
+}
+
 @media screen and (min-width: 990px) {
   .image-with-text__heading {
     font-size: 4rem;
   }
+
+  .image-with-text__text {
+    width: 60%;
+  }
 }
+
 
 .image-with-text__text p {
   word-break: break-word;
