@@ -3604,7 +3604,8 @@ details-disclosure > details {
 }
 
 @media screen and (min-width: 1200px) {
-    .header-04 {
+    .header-04,
+    .footer-05 {
         column-gap: 2.4rem;
     }
 }
