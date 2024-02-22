@@ -30,7 +30,7 @@
 .nav-tabs {
 	-ms-flex-pack: center;
 	-webkit-box-pack: center;
-	border-bottom: 1px solid rgba(52, 58, 64, 0.12);
+	border-bottom: 1px solid rgba(255,255,255,0.1);
 	display: -ms-flexbox;
 	display: -webkit-box;
 	display: flex;
