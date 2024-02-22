@@ -24,6 +24,7 @@
 
 .totals__subtotal-value {
   font-size: 1.8rem;
+  color: rgba(var(--color-base-accent-3));
 }
 
 .cart__ctas + .totals {
