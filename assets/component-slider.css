@@ -660,6 +660,6 @@ slider-component:hover .slider-button {
   right: 0;
 }
 
-.grid__item .card-wrapper:hover .order-wrap-inner {
+.grid__item .card-wrapper:hover .quick-add {
   transform: translateY(-100%);
 }
