@@ -2,10 +2,6 @@
 .footer {
 }
 
-.footer:not(.color-background-1) {
-	border-top: none;
-}
-
 .footer__content-top {
 	display: block;
 }
