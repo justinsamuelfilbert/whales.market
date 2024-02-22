@@ -26,10 +26,10 @@
     "heading_scale": 100,
     "type_body_font": "space_mono_n4",
     "body_scale": 100,
-    "page_width": 1280,
+    "page_width": 1400,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 24,
-    "spacing_grid_vertical": 24,
+    "spacing_grid_horizontal": 32,
+    "spacing_grid_vertical": 32,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
     "buttons_radius": 0,
@@ -525,15 +525,6 @@
       "footer-05": {
         "type": "footer-05",
         "settings": {
-          "heading": "Merch Whales Market",
-          "heading_size": "h0",
-          "color_scheme": "inverse",
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true,
-          "margin_top": 0,
-          "padding_top": 24,
-          "padding_bottom": 0
         }
       },
       "header-05": {
