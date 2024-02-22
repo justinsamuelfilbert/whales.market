@@ -6,7 +6,7 @@
         "heading_xQ4GmG": {
           "type": "heading",
           "settings": {
-            "heading": "Whales Market Fan Store",
+            "heading": "Store of Whales. Market's Fans",
             "heading_size": "h1"
           }
         },
@@ -36,7 +36,7 @@
     "de99a705-2695-4857-953e-c4d63681937b": {
       "type": "featured-collection",
       "settings": {
-        "title": "Whales Market Collection",
+        "title": "<span>Whales Market<\/span> Collection",
         "heading_size": "h2",
         "title_style": "02",
         "description_style": "body",
