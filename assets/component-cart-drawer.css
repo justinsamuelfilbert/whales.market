@@ -283,6 +283,10 @@ cart-drawer-items {
   grid-column: 2 / 4;
 }
 
+.cart-drawer .cart-item__details .caption-with-letter-spacing {
+  display: none;
+}
+
 .cart-drawer .cart-item__totals {
   pointer-events: none;
   display: flex;
