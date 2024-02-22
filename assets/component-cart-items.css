@@ -44,6 +44,7 @@
   height: auto;
   max-width: 100%;
   min-width: 3rem;
+  border-radius: 3px;
 }
 
 @media screen and (min-width: 750px) {
