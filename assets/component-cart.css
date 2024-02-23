@@ -6,7 +6,8 @@
 
 .cart-title {
   margin-top: calc(var(--grid-desktop-vertical-spacing)*2);
-  margin-bottom: 3.2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
 }
 
 .cart-title .title {
