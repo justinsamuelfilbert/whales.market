@@ -23,6 +23,10 @@
   .footer-05 .grid {  
   	flex-direction: column;
   }
+
+  .footer-05 .social-links {
+  	justify-content: center;
+  }
 }
 
 .footer-05 .logo_image_small svg {
