@@ -555,6 +555,7 @@ fieldset.product-form__input .form__label {
 
 .product__info-container > * + * {
 	margin: 1.5rem 0;
+	line-height: 1;
 }
 
 .product__info-container > .product__view-details {
