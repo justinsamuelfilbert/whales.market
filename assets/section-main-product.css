@@ -914,6 +914,8 @@ a.product__text {
 
 .product--thumbnail_slider .product__media-list {
 	column-gap: 0;
+	border-radius: 6px;
+  overflow: hidden;
 }
 
 @media screen and (max-width: 749px) {
