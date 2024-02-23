@@ -305,6 +305,12 @@
   opacity: 0.7;
 }
 
+@media screen and (max-width: 749px) {
+  .image-with-text__content > * + * {
+    font-size: 1rem;
+  }
+}
+
 .image-with-text__content > .image-with-text__text:empty ~ a {
   margin-top: 2rem;
 }
