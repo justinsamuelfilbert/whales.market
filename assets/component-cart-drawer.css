@@ -397,6 +397,7 @@ cart-drawer-items {
     border-radius: 6px;
     width: auto;
     min-height: 0;
+    text-transform: none;
   }
 }
 
