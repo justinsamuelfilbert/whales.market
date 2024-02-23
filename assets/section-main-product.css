@@ -2027,7 +2027,7 @@ a.product__text {
 .product-page .global-media-settings {
 	border: 0;
 	box-shadow: none;
-	border-radius: 1rem;
+	border-radius: 6px;
 	overflow: hidden !important;
 }
 
