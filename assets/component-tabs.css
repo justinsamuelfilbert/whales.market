@@ -66,6 +66,7 @@
 .tab .summary__title .tab__title {
 	font-size: 1.25;
 	font-weight: 600;
+	text-transform: none;
 }
 
 .tab .summary__title svg:empty {
