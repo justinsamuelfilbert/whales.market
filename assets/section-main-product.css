@@ -750,7 +750,7 @@ a.product__text {
 }
 
 .product-form__quantity .form__label {
-	margin-bottom: 0.2rem;
+	margin-bottom: 1rem;
 	line-height: 1;
 	font-size: 0.875rem;
 	text-transform: uppercase;
