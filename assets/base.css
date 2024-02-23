@@ -724,7 +724,13 @@ blockquote p:last-child::before {
 table:not([class]) {
 	table-layout: fixed;
 	border-collapse: collapse;
-	font-size: 1.4rem;
+	font-size: 1rem;
+}
+
+@media screen and (min-width: 750px) {
+	table:not([class]) {
+		font-size: 1.25rem;
+	}
 }
 
 table:not([class]) td,
