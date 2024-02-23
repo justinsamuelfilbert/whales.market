@@ -47,6 +47,9 @@
       {%- if section.settings.image != blank -%}
       <div class="image-with-text__media-item">
         <div class="image-with-text__media-item-inner">
+          {%- if block.settings.button_label != blank -%}
+            <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
+          {%- endif -%}
             <img
               src="{{ section.settings.image | image_url: width: 750 }}"
               alt="{{ section.settings.image.alt | escape }}"
@@ -80,6 +83,11 @@
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
+    },
+    {
+      "type": "url",
+      "id": "image_link",
+      "label": "t:sections.image-with-text.blocks.button.settings.button_link.label"
     },
     {
       "type": "select",
