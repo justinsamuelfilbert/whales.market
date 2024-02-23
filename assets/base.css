@@ -2319,7 +2319,7 @@ input[type='checkbox'] {
 	color: #fff;
 	position: relative;
 	width: calc(11rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
-	display: flex;
+	display: inline-flex;
 	border-radius: 4px;
   min-height: calc((var(--inputs-border-width) * 2) + 3rem);
   border: 1px solid rgba(255,255,255,0.2);
