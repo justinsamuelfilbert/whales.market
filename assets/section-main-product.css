@@ -1599,7 +1599,7 @@ a.product__text {
 
 .thumbnail-list-thumbnail img,
 .thumbnail-list-thumbnail_slider .thumbnail-list__item img {
-	border: 2px solid rgb(var(--color-base-accent-1));
+	border: 1px solid transparent;
 }
 
 .thumbnail-list-thumbnail [aria-current] img,
