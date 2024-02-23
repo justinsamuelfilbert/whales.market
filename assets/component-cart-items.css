@@ -150,7 +150,7 @@
 }
 
 cart-remove-button .button {
-  padding: 0;
+  padding: 0 0.5rem;
   background: none;
   color: red;
   min-width: 0;
