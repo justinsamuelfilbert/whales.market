@@ -3551,7 +3551,7 @@ details-disclosure > details {
 
 .title-wrapper-02 .title > span {
   color: #d90e72;
-  background-image: -webkit-linear-gradient(0deg, #9945FF 0%, #19FB9B 50%);
+  background-image: -webkit-linear-gradient(0deg, #917DEA 0%, #19FB9B 50%);
   background-clip: text;
   -webkit-background-clip: text;
   text-fill-color: transparent;
@@ -4276,7 +4276,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button:not([disabled]):hover {
-  color: #9945ff;
+  color: #917DEA;
 }
 
 .slider-button .icon {
@@ -4351,7 +4351,7 @@ slider-component:hover .slider-button {
 }
 
 .slider-navigation .slider-button:not([disabled]):hover {
-  color: #9945ff;
+  color: #917DEA;
 }
 
 .slider-navigation .slider-button--prev {
