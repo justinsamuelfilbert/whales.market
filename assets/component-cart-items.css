@@ -4,7 +4,6 @@
 
 .cart-items td,
 .cart-items th {
-  padding: 0;
   border: .1rem solid rgba(255,255,255,.1);
 }
 
