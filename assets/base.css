@@ -4458,19 +4458,3 @@ slider-component:hover .slider-button {
 .grid__item .card-wrapper:hover .quick-add {
   transform: translateY(calc(-100% - 1rem));
 }
-
-@media screen and (max-width: 479px) {
-	.grid__item .card-wrapper .card__information {
-		justify-content: flex-start;
-  	flex-direction: column;
-	}
-
-	.grid__item .card-wrapper .card_heading-wrap {
-		width: 100%;
-	}
-
-	.grid__item .card-wrapper .price {
-		justify-content: flex-start;
-		font-size: 1rem;
-	}
-}
