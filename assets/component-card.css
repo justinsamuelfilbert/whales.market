@@ -16,7 +16,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  background-image: linear-gradient(to left top, #19FB9B , #9945FF );
+  background-image: linear-gradient(to left top, #19FB9B , #917DEA );
   opacity: .4;
 }
 
@@ -886,7 +886,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button:not([disabled]):hover {
-  color: #9945ff;
+  color: #917DEA;
 }
 
 .slider-button .icon {
@@ -961,7 +961,7 @@ slider-component:hover .slider-button {
 }
 
 .slider-navigation .slider-button:not([disabled]):hover {
-  color: #9945ff;
+  color: #917DEA;
 }
 
 .slider-navigation .slider-button--prev {
