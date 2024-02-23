@@ -22,8 +22,8 @@
       {%- if section.settings.image != blank -%}
       <div class="image-banner__media-item">
         <div class="image-banner__media-item-inner">
-          {%- if section.settings.url != blank -%}
-            <a href="{{ section.settings.url }}">
+          {%- if section.settings.link != blank -%}
+            <a href="{{ section.settings.link }}">
           {%- endif -%}
             <img
               src="{{ section.settings.image | image_url: width: 1400 }}"
@@ -32,7 +32,7 @@
               width="1400"
               height="600"
             >
-          {%- if section.settings.url != blank -%}
+          {%- if section.settings.link != blank -%}
             </a>
           {%- endif -%}
         </div>
