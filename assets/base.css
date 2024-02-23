@@ -4460,5 +4460,7 @@ slider-component:hover .slider-button {
 }
 
 @media screen and (max-width: 479px) {
-	
+	.grid__item .card-wrapper .card__information {
+		
+	}
 }
