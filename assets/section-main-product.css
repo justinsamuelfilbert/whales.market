@@ -912,7 +912,9 @@ a.product__text {
 	display: none;
 }
 
-
+.product--thumbnail_slider .product__media-list {
+	column-gap: 0;
+}
 
 @media screen and (max-width: 749px) {
 	.product__media-list {
