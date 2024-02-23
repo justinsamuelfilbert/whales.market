@@ -2316,11 +2316,11 @@ input[type='checkbox'] {
 /* component-quantity */
 
 .quantity {
-	color: rgba(var(--color-foreground));
+	color: #fff;
 	position: relative;
 	width: calc(11rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
 	display: flex;
-	border-radius: var(--inputs-radius);
+	border-radius: 4px;
 	min-height: calc((var(--inputs-border-width) * 2) + 3rem);
 }
 
