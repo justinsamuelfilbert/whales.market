@@ -2343,7 +2343,7 @@ input[type='checkbox'] {
 
 .quantity__button {
 	flex-shrink: 0;
-	font-size: 1rem;
+	font-size: 0.75rem;
 	border: 0;
 	background-color: transparent;
 	cursor: pointer;
