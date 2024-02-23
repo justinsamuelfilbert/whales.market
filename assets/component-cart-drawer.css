@@ -273,7 +273,7 @@ cart-drawer-items {
 }
 
 .cart-drawer .cart-item:last-child {
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
 }
 
 .cart-drawer .cart-item .loading-overlay {
