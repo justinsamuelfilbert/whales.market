@@ -2341,7 +2341,6 @@ input[type='checkbox'] {
 }
 
 .quantity__button {
-	width: calc(3rem / var(--font-body-scale));
 	flex-shrink: 0;
 	font-size: 1rem;
 	border: 0;
@@ -2351,7 +2350,7 @@ input[type='checkbox'] {
 	align-items: center;
 	justify-content: center;
 	color: rgb(var(--color-foreground));
-	padding: 0;
+	padding: 0.5rem 1rem;
 }
 
 .quantity__button:first-child {

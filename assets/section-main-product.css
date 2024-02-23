@@ -389,7 +389,7 @@
 }
 
 .product-form__input .quantity {
-	width: 122px;
+	width: auto;
 }
 
 .product-form__input .quantity__input {
