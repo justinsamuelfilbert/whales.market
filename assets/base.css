@@ -2321,7 +2321,8 @@ input[type='checkbox'] {
 	width: calc(11rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
 	display: flex;
 	border-radius: 4px;
-	min-height: calc((var(--inputs-border-width) * 2) + 3rem);
+  min-height: calc((var(--inputs-border-width) * 2) + 3rem);
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
 .quantity:after {
