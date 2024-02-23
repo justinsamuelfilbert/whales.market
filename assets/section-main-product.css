@@ -558,6 +558,10 @@ fieldset.product-form__input .form__label {
 	line-height: 1;
 }
 
+.product__info-container > #short_description {
+	margin-bottom: 1.5rem;
+}
+
 .product__info-container > .product__view-details {
 	margin-bottom: 0;
 }
