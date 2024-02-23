@@ -4264,6 +4264,8 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
   border: var(--text-boxes-border-width) solid
     rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 }
