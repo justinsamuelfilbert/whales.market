@@ -558,6 +558,11 @@
   max-width: 100%;
   display: inline-block;
   height: auto;
-  border-radius: 1rem;
-  border: 1px solid rgba(0,0,0,0.2);
+}
+
+@media screen and (min-width: 750px) {
+  .image-banner__media-item-inner img {
+    border-radius: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+  }
 }
