@@ -3550,7 +3550,12 @@ details-disclosure > details {
   -webkit-text-fill-color: transparent;
 }
 
-/* Header 4 */
+@media screen and (min-width: 750px) {
+	.title-wrapper-02 .title {
+		font-size: 2rem;
+	}
+}
+
 /* Header 04 */
 .header-wrapper {
     z-index: 5;
