@@ -744,6 +744,7 @@ table:not([class]) th {
 .table-responsive > table {
 	width: auto !important;
 	word-break: initial;
+	min-width: 100%;
 }
 
 .hidden {
