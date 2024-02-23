@@ -4445,3 +4445,8 @@ slider-component:hover .slider-button {
 .grid__item .card-wrapper:hover .quick-add {
   transform: translateY(calc(-100% - 1rem));
 }
+
+/* Table Responsive */
+.table-responsive {
+	
+}
