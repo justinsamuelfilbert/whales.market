@@ -356,6 +356,11 @@
   .image-with-text__text {
     width: 60%;
   }
+
+  .image-with-text__content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 
