@@ -394,6 +394,7 @@
 
 .product-form__input .quantity__input {
 	min-width: 30px;
+	max-width: 46px;
 	outline: none;
 	box-shadow: none;
 	background-color: transparent;
