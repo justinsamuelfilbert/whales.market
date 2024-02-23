@@ -100,7 +100,13 @@
 	overflow-x: auto;
 	padding: 2rem 0 0;
 	display: none;
-	width: 50%;
+	width: 100%;
+}
+
+@media screen and (min-width: 1200px) {
+	.tab__content {
+		width: 50%;
+	}
 }
 
 .tab__content div {
