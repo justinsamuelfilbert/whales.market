@@ -4205,10 +4205,7 @@ slider-component.slider-component-full-width {
   opacity: 0;
 }
 
-.product--thumbnail_slider
-  .thumbnail-slider.slider-tablet-gutter
-  .slider-button
-  .icon {
+.product--thumbnail_slider .thumbnail-slider.slider-tablet-gutter .slider-button .icon {
   height: 1rem;
 }
 
