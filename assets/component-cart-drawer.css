@@ -380,7 +380,7 @@ cart-drawer-items {
 
 .cart-drawer .cart__checkout-button {
   font-size: 1.125rem;
-  line-height: 1.75rem;
+  line-height: 1rem;
   background: #14f195;
   display: block;
   color: #1f2937;
@@ -393,7 +393,6 @@ cart-drawer-items {
   letter-spacing: .1rem;
   text-transform: uppercase;
   font-family: inherit;
-  min-height: 4.6rem;
 }
 
 @media screen and (max-width: 749px) { 
