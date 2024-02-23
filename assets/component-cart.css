@@ -102,7 +102,7 @@ cart-items {
 }
 
 .cart__footer {
-  padding: 2rem 0 0;
+  padding: 2rem 0 4rem;
 }
 
 .cart__footer-wrapper:last-child .cart__footer {
