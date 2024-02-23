@@ -14,6 +14,18 @@
 	align-items: center;
 }
 
+.footer-05 .logo_image_small svg {
+	max-width: 30px;
+	height: 24px;
+}
+
+.footer-05 .social-links {
+	gap: 1rem;
+  display: flex;
+  min-width: 160px;
+  justify-content: end;
+}
+
 @media screen and (max-width: 989px) {
   .footer-05 {
     padding-left: 2.4rem;
@@ -27,18 +39,6 @@
   .footer-05 .social-links {
   	justify-content: center;
   }
-}
-
-.footer-05 .logo_image_small svg {
-	max-width: 30px;
-	height: 24px;
-}
-
-.footer-05 .social-links {
-	gap: 1rem;
-  display: flex;
-  min-width: 160px;
-  justify-content: end;
 }
 
 .footer-05 .social-links a {
