@@ -742,7 +742,7 @@ table:not([class]) th {
 }
 
 .table-responsive > table {
-	width: 100%;
+	width: auto !important
 }
 
 .hidden {
@@ -4444,9 +4444,4 @@ slider-component:hover .slider-button {
 
 .grid__item .card-wrapper:hover .quick-add {
   transform: translateY(calc(-100% - 1rem));
-}
-
-/* Table Responsive */
-.table-responsive {
-	
 }
