@@ -4464,4 +4464,8 @@ slider-component:hover .slider-button {
 		justify-content: flex-start;
   	flex-direction: column;
 	}
+
+	.grid__item .card-wrapper .card_heading-wrap {
+		width: 100%;
+	}
 }
