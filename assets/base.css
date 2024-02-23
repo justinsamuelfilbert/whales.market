@@ -4471,5 +4471,6 @@ slider-component:hover .slider-button {
 
 	.grid__item .card-wrapper .price {
 		justify-content: flex-start;
+		font-size: 1rem;
 	}
 }
