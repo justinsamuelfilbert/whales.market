@@ -814,7 +814,7 @@ a.product__text {
 }
 
 .grid__item .product__media-list {
-	margin-bottom: 2rem;
+	margin-bottom: 0.5rem;
 }
 
 .product__media-list .flickity-viewport {
