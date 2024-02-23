@@ -742,7 +742,8 @@ table:not([class]) th {
 }
 
 .table-responsive > table {
-	width: auto !important
+	width: auto !important;
+	word-break: initial;
 }
 
 .hidden {
