@@ -445,10 +445,10 @@ fieldset.product-form__input .form__label {
 	color: #fff;
 	display: inline-block;
 	margin: 0.7rem 0.5rem 0.2rem 0;
-	padding: 1rem 2rem;
+	padding: 0.5rem 1rem;
 	font-size: 1rem;
 	letter-spacing: 0.1rem;
-	line-height: 1;
+	line-height: 1.25;
 	text-align: center;
 	transition: border var(--duration-short) ease;
 	cursor: pointer;
