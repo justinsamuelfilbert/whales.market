@@ -3537,7 +3537,7 @@ details-disclosure > details {
 .title-wrapper-02 .title {
   margin-top: 0;
   margin-bottom: 0;
-  font-size: 3.5rem;
+	font-size: 2rem;
   color: #fff;
 }
 
@@ -3552,7 +3552,7 @@ details-disclosure > details {
 
 @media screen and (min-width: 750px) {
 	.title-wrapper-02 .title {
-		font-size: 2rem;
+  	font-size: 3.5rem;
 	}
 }
 
