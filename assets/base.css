@@ -3075,7 +3075,7 @@ details[open] > .header__submenu {
 .header__menu-item:hover > span,
 .header__menu-item > .header__active-menu-item,
 .header__menu-item:hover > .header__active-menu-item {
-	color: rgba(var(--color-base-accent-3));
+	color: #19FB9B;
 }
 
 .header__menu-item:hover > span:after {
