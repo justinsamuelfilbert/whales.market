@@ -4259,13 +4259,11 @@ slider-component.slider-component-full-width {
   background: #eee;
   border: none;
   cursor: pointer;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 48px;
+  height: 48px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
   border: var(--text-boxes-border-width) solid
     rgba(var(--color-foreground), var(--text-boxes-border-opacity));
 }
