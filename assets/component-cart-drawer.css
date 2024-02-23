@@ -294,6 +294,7 @@ cart-drawer-items {
 .cart-drawer .cart-item__details {
   width: auto;
   grid-column: 2 / 4;
+  min-width: 220px;
 }
 
 .cart-drawer .cart-item__details .caption-with-letter-spacing {
