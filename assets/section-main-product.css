@@ -27,6 +27,10 @@
 	display: none;
 }
 
+.short_description {
+	color: #fff;
+}
+
 @media screen and (max-width: 749px) {
 	.gallery_full_width .product media-gallery {
 		width: 100%;
