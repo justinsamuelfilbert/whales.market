@@ -2326,14 +2326,13 @@ input[type='checkbox'] {
 }
 
 .quantity__input {
-	color: currentColor;
+	color: #fff;
 	font-size: 1rem;
-	font-weight: 500;
-	opacity: 0.85;
+	font-weight: 400;
 	text-align: center;
 	background-color: transparent;
 	border: 0;
-	padding: 0 0.5rem;
+	padding: 0.5rem 1rem;
 	width: 100%;
 	flex-grow: 1;
 	-webkit-appearance: none;
