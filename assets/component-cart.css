@@ -238,7 +238,6 @@ cart-items {
   cursor: pointer;
   text-align: center;
   letter-spacing: .1rem;
-  text-transform: uppercase;
   font-family: inherit;
 }
 
