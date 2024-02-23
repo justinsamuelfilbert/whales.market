@@ -4194,18 +4194,14 @@ slider-component.slider-component-full-width {
   display: none;
 }
 
-.product--thumbnail_slider
-  .thumbnail-slider.slider-tablet-gutter
-  .slider-button {
+.product--thumbnail_slider .thumbnail-slider.slider-tablet-gutter .slider-button {
   position: absolute;
   top: 50%;
   margin-top: -22px;
   z-index: 2;
 }
 
-.product--thumbnail_slider
-  .thumbnail-slider.slider-tablet-gutter
-  .slider-button[disabled] {
+.product--thumbnail_slider .thumbnail-slider.slider-tablet-gutter .slider-button[disabled] {
   opacity: 0;
 }
 
