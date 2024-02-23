@@ -2326,6 +2326,12 @@ input[type='checkbox'] {
   border: 1px solid rgba(255,255,255,0.2);
 }
 
+@media screen and (max-width: 749px) {
+	.quantity {
+		width: calc(9rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
+	}
+}
+
 .quantity__input {
 	color: #fff;
 	font-size: 1rem;
