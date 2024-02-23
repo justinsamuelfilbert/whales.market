@@ -4266,6 +4266,8 @@ slider-component.slider-component-full-width {
   justify-content: center;
   border: var(--text-boxes-border-width) solid
     rgba(var(--color-foreground), var(--text-boxes-border-opacity));
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .slider-button:not([disabled]):hover {
@@ -4274,7 +4276,7 @@ slider-component.slider-component-full-width {
 
 .slider-button .icon {
   height: auto;
-  width: 2.4rem;
+  width: 1rem;
 }
 
 @media screen and (max-width: 749px) {
