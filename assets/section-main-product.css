@@ -402,6 +402,7 @@
 
 .product-form__input .quantity__button svg {
 	width: 1rem;
+	fill: #fff;
 }
 
 variant-radios,
