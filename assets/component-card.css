@@ -961,7 +961,7 @@ slider-component:hover .slider-button {
 }
 
 .slider-navigation .slider-button:not([disabled]):hover {
-  color: rgb(var(--color-button-text));
+  color: #9945ff;
 }
 
 .slider-navigation .slider-button--prev {
