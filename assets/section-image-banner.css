@@ -545,6 +545,11 @@
   }
 }
 
+.image-banner > div > .page-width {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .image-banner__media-item-inner {
   line-height: 1;
 }
