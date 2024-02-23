@@ -54,12 +54,12 @@
       {{ settings.type_header_font | font_face: font_display: 'swap' }}
 
       :root {
-        --font-body-family: Urbanist, sans-serif;
+        --font-body-family: 'Manrope', sans-serif;
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
         --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
 
-        --font-heading-family: Urbanist, sans-serif;
+        --font-heading-family: 'Manrope', sans-serif;
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }};
 
@@ -257,7 +257,7 @@
         min-height: 100%;
         margin: 0;
         tab-size: 4;
-        font-family: Urbanist, sans-serif;
+        font-family: 'Manrope', sans-serif;
         font-feature-settings: normal;
         font-variation-settings: normal;
         line-height: 1.65;
