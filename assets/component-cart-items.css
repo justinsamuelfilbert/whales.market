@@ -305,17 +305,13 @@ cart-remove-button .icon-remove {
 
   .cart-items thead th:first-child {
     width: 50%;
-    padding-left: 0;
   }
 
   .cart-items td {
     vertical-align: top;
-    padding-top: 2rem;
-    padding-bottom: 0;
   }
 
   .cart-items td:first-child {
-    padding-left: 0;
   }
 
   .cart-item {
