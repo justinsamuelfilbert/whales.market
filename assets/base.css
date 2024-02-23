@@ -4268,6 +4268,7 @@ slider-component.slider-component-full-width {
     rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   margin-left: 1rem;
   margin-right: 1rem;
+  border-radius: 4px;
 }
 
 .slider-button:not([disabled]):hover {
