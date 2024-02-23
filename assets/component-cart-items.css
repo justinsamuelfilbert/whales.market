@@ -15,9 +15,9 @@
 }
 
 .cart-items th {
-  color: var(--gradient-base-accent-1);
+  color: #fff;
   font-size: 1.5rem;
-  font-weight: 900;
+  font-weight: 600;
   text-align: left;
   padding: .8rem 1.6rem;
 }
