@@ -1070,6 +1070,7 @@ slider-component:hover .slider-button {
   .grid__item .card-wrapper .card__information {
     justify-content: flex-start;
     flex-direction: column;
+    align-items: start;
   }
 
   .grid__item .card-wrapper .card_heading-wrap {
