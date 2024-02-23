@@ -4281,7 +4281,7 @@ slider-component.slider-component-full-width {
 
 @media screen and (max-width: 749px) {
   .slider-button .icon {
-    width: 1.2rem;
+    width: 0.75rem;
   }
 }
 
