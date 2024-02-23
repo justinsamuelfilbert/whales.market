@@ -2325,35 +2325,6 @@ input[type='checkbox'] {
   border: 1px solid rgba(255,255,255,0.2);
 }
 
-.quantity:after {
-	pointer-events: none;
-	content: '';
-	position: absolute;
-	top: var(--inputs-border-width);
-	right: var(--inputs-border-width);
-	bottom: var(--inputs-border-width);
-	left: var(--inputs-border-width);
-	border: 0.1rem solid transparent;
-	border-radius: var(--inputs-radius);
-	box-shadow: 0 0 0 var(--inputs-border-width) rgba(var(--color-foreground), var(--inputs-border-opacity));
-	transition: box-shadow var(--duration-short) ease;
-	z-index: 1;
-}
-
-.quantity:before {
-	background: rgba(255,255,255,0.01);
-	pointer-events: none;
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	border-radius: var(--inputs-radius-outset);
-	box-shadow: var(--inputs-shadow-horizontal-offset) var(--inputs-shadow-vertical-offset) var(--inputs-shadow-blur-radius) rgba(var(--color-base-text), var(--inputs-shadow-opacity));
-	z-index: -1;
-}
-
 .quantity__input {
 	color: currentColor;
 	font-size: 1.4rem;
@@ -2385,10 +2356,12 @@ input[type='checkbox'] {
 
 .quantity__button:first-child {
 	margin-left: calc(var(--inputs-border-width));
+  border-right: 1px solid rgba(255,255,255,0.2);
 }
 
 .quantity__button:last-child {
 	margin-right: calc(var(--inputs-border-width));
+  border-left: 1px solid rgba(255,255,255,0.2);
 }
 
 .quantity__button svg {
