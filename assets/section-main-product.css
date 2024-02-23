@@ -612,7 +612,7 @@ a.product__text {
 
 .product__title > * {
 	margin: 0;
-	font-size: calc(var(--font-heading-scale) * 3.6rem);
+	font-size: calc(var(--font-heading-scale) * 3.25rem);
 }
 
 .product__title > a {
