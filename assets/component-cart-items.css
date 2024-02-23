@@ -1,5 +1,5 @@
 .cart-items {
-  
+  border-collapse: collapse;
 }
 
 .cart-items td,
