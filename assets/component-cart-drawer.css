@@ -194,7 +194,7 @@ cart-drawer {
   width: 100%;
 }
 
-.cart-drawer .cart-items + .cart-items {
+.cart-drawer .cart-item + .cart-item {
   margin-top: 2rem;
   padding-top: 2rem;
   border-top: 1px solid rgba(255,255,255,0.1);
