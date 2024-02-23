@@ -4255,7 +4255,7 @@ slider-component.slider-component-full-width {
 }
 
 .slider-button {
-  color: rgba(var(--color-foreground), 0.75);
+  color: rgb(14, 20, 32);
   background: #eee;
   border: none;
   cursor: pointer;
