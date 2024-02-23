@@ -62,6 +62,12 @@
 	line-height: 1;
 	margin-bottom: -1px;
 }
+
+.tab .summary__title .tab__title {
+	font-size: 1.25;
+	font-weight: 600;
+}
+
 .tab .summary__title svg:empty {
 	display: none !important;
 }
