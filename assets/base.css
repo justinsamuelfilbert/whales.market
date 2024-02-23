@@ -3573,7 +3573,7 @@ details-disclosure > details {
 }
 
 #shopify-section-header-04 {
-    border-top: 3px solid rgba(var(--color-base-accent-3));
+    border-top: 3px solid #19FB9B;
     border-bottom-style: solid;
     border-bottom-color: rgba(255, 255, 255, 0.1);
     border-bottom-width: 1px;
