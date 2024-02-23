@@ -14,7 +14,8 @@
     }    
   }
 {%- endstyle -%}
-<section class="page-width section-{{ section.id }} section-{{ section.id }}-padding">
+<section class="page-width">
+  <div class="section-{{ section.id }} section-{{ section.id }}-padding">
   {%- if section.settings.collapsible_type == "tabs" -%}
     {{ 'component-tabs.css' | asset_url | stylesheet_tag }}
     <div class="product___tabs product_tabs_positions_{{ section.settings.collapsible_tab_header_position }} tab quick-add-hidden" id="TabDetails-{{ section.id }}" {{ block.shopify_attributes }}>
@@ -205,6 +206,7 @@
       {%- endcase -%}
     {%- endfor -%}
   {%- endif -%}
+  </div>
 </section>
 {% schema %}
   {
