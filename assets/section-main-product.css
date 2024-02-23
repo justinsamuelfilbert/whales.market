@@ -155,7 +155,7 @@
 @media screen and (min-width: 990px) {
 
 	.product__info-wrapper {
-		padding-left: calc(var(--grid-desktop-vertical-spacing) * 2);
+		padding-left: var(--grid-desktop-vertical-spacing);
 	}
 	.product--large:not(.product--no-media) .product__media-wrapper {
 		max-width: 50%;
