@@ -564,6 +564,7 @@ fieldset.product-form__input .form__label {
 
 .product__info-container > .product__view-details {
 	margin-bottom: 0;
+	color: #fff;
 }
 
 .product__info-container .price--on-sale .price__sale,
