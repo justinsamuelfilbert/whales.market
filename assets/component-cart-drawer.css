@@ -194,6 +194,11 @@ cart-drawer {
   width: 100%;
 }
 
+.cart-drawer .cart-items + .cart-items {
+  margin-top: 1rem;
+  padding-top: 1rem;
+}
+
 .cart-drawer thead {
   display: inline-table;
   width: 100%;
