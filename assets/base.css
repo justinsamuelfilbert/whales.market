@@ -4187,8 +4187,8 @@ slider-component.slider-component-full-width {
 }
 
 .product--thumbnail_slider .slider-button .icon {
-  height: 2.4rem;
-  width: 2.4rem;
+  height: 1rem;
+  width: 1rem;
 }
 .product--thumbnail_slider .slider-button[disabled="disabled"]{ 
   display: none;
