@@ -422,6 +422,7 @@ fieldset.product-form__input .form__label {
 	font-size: 0.875rem;
 	text-transform: uppercase;
 	font-weight: 600;
+	color: rgba(255, 255, 255, 0.80); 
 }
 
 .product-form__input input[type='radio'] {
